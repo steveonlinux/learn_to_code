@@ -1,0 +1,155 @@
+2023-04-05 12:09:53 [INFO] (mdbook::book): Book building has started
+2023-04-05 12:09:53 [INFO] (mdbook::book): Running the html backend
+2023-04-05 12:09:53 [INFO] (mdbook::cmd::serve): Serving on: http://localhost:3000
+2023-04-05 12:09:53 [INFO] (mdbook::cmd::watch): Listening for changes...
+2023-04-05 12:09:53 [INFO] (warp::server): Server::run; addr=[::1]:3000
+2023-04-05 12:09:53 [INFO] (warp::server): listening on http://[::1]:3000
+2023-04-05 12:09:56 [INFO] (mdbook::book): Book building has started
+2023-04-05 12:09:56 [INFO] (mdbook::book): Running the html backend
+2023-04-05 12:09:56 [INFO] (mdbook::cmd::serve): Serving on: http://localhost:3000
+2023-04-05 12:09:56 [INFO] (mdbook::cmd::watch): Listening for changes...
+2023-04-05 12:09:56 [INFO] (warp::server): Server::run; addr=[::1]:3000
+2023-04-05 12:09:56 [INFO] (warp::server): listening on http://[::1]:3000
+2023-04-05 12:10:47 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/book.toml"]
+2023-04-05 12:10:47 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 12:10:47 [INFO] (mdbook::book): Book building has started
+2023-04-05 12:10:47 [INFO] (mdbook::book): Running the html backend
+2023-04-05 12:13:57 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/SUMMARY.md", "/home/steve/docs/learn_to_code/src/SUMMARY.md~", "/home/steve/docs/learn_to_code/src/4913"]
+2023-04-05 12:13:57 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 12:13:57 [INFO] (mdbook::book): Book building has started
+2023-04-05 12:13:57 [INFO] (mdbook::book): Running the html backend
+2023-04-05 12:13:58 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/introduction.md"]
+2023-04-05 12:13:58 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 12:13:58 [INFO] (mdbook::book): Book building has started
+2023-04-05 12:13:58 [INFO] (mdbook::book): Running the html backend
+2023-04-05 12:27:26 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/SUMMARY.md~", "/home/steve/docs/learn_to_code/src/SUMMARY.md", "/home/steve/docs/learn_to_code/src/4913"]
+2023-04-05 12:27:26 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 12:27:26 [INFO] (mdbook::book): Book building has started
+2023-04-05 12:27:26 [INFO] (mdbook::book): Running the html backend
+2023-04-05 12:27:27 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/table.md", "/home/steve/docs/learn_to_code/src/started/ide.md", "/home/steve/docs/learn_to_code/src/started/langs.md", "/home/steve/docs/learn_to_code/src/started", "/home/steve/docs/learn_to_code/src/started/what.md", "/home/steve/docs/learn_to_code/src/started/ver.md"]
+2023-04-05 12:27:27 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 12:27:27 [INFO] (mdbook::book): Book building has started
+2023-04-05 12:27:27 [INFO] (mdbook::book): Running the html backend
+2023-04-05 13:09:08 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/4913", "/home/steve/docs/learn_to_code/src/SUMMARY.md", "/home/steve/docs/learn_to_code/src/SUMMARY.md~"]
+2023-04-05 13:09:08 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 13:09:08 [WARN] (mdbook::book::summary): Expected a start of a link, actually got Some(End(Item))
+2023-04-05 13:09:08 [ERROR] (mdbook::cmd::serve): Unable to load the book
+2023-04-05 13:09:08 [ERROR] (mdbook::utils): Error: Summary parsing failed for file="/home/steve/docs/learn_to_code/src/SUMMARY.md"
+2023-04-05 13:09:08 [ERROR] (mdbook::utils): 	Caused By: There was an error parsing the numbered chapters
+2023-04-05 13:09:08 [ERROR] (mdbook::utils): 	Caused By: There was an error parsing the numbered chapters
+2023-04-05 13:09:08 [ERROR] (mdbook::utils): 	Caused By: failed to parse SUMMARY.md line 15, column 1: The link items for nested chapters must only contain a hyperlink
+2023-04-05 13:09:21 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/SUMMARY.md", "/home/steve/docs/learn_to_code/src/4913", "/home/steve/docs/learn_to_code/src/SUMMARY.md~"]
+2023-04-05 13:09:21 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 13:09:21 [WARN] (mdbook::book::summary): Expected a start of a link, actually got Some(End(Item))
+2023-04-05 13:09:21 [ERROR] (mdbook::cmd::serve): Unable to load the book
+2023-04-05 13:09:21 [ERROR] (mdbook::utils): Error: Summary parsing failed for file="/home/steve/docs/learn_to_code/src/SUMMARY.md"
+2023-04-05 13:09:21 [ERROR] (mdbook::utils): 	Caused By: There was an error parsing the numbered chapters
+2023-04-05 13:09:21 [ERROR] (mdbook::utils): 	Caused By: There was an error parsing the numbered chapters
+2023-04-05 13:09:21 [ERROR] (mdbook::utils): 	Caused By: failed to parse SUMMARY.md line 15, column 1: The link items for nested chapters must only contain a hyperlink
+2023-04-05 13:09:34 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/SUMMARY.md~", "/home/steve/docs/learn_to_code/src/4913", "/home/steve/docs/learn_to_code/src/SUMMARY.md"]
+2023-04-05 13:09:34 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 13:09:34 [INFO] (mdbook::book): Book building has started
+2023-04-05 13:09:34 [INFO] (mdbook::book): Running the html backend
+2023-04-05 13:09:35 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/types.md", "/home/steve/docs/learn_to_code/src/data", "/home/steve/docs/learn_to_code/src/data/READNE.md", "/home/steve/docs/learn_to_code/src/data/vars.md", "/home/steve/docs/learn_to_code/src/data/data.md"]
+2023-04-05 13:09:35 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 13:09:35 [INFO] (mdbook::book): Book building has started
+2023-04-05 13:09:35 [INFO] (mdbook::book): Running the html backend
+2023-04-05 13:21:30 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/SUMMARY.md", "/home/steve/docs/learn_to_code/src/SUMMARY.md~", "/home/steve/docs/learn_to_code/src/4913"]
+2023-04-05 13:21:30 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 13:21:30 [WARN] (mdbook::book::summary): Expected a start of a link, actually got Some(Text(Borrowed("[")))
+2023-04-05 13:21:30 [ERROR] (mdbook::cmd::serve): Unable to load the book
+2023-04-05 13:21:30 [ERROR] (mdbook::utils): Error: Summary parsing failed for file="/home/steve/docs/learn_to_code/src/SUMMARY.md"
+2023-04-05 13:21:30 [ERROR] (mdbook::utils): 	Caused By: There was an error parsing the numbered chapters
+2023-04-05 13:21:30 [ERROR] (mdbook::utils): 	Caused By: There was an error parsing the numbered chapters
+2023-04-05 13:21:30 [ERROR] (mdbook::utils): 	Caused By: failed to parse SUMMARY.md line 16, column 3: The link items for nested chapters must only contain a hyperlink
+2023-04-05 13:22:29 [WARN] (mdbook::book::summary): Expected a start of a link, actually got Some(Text(Borrowed("[")))
+2023-04-05 13:22:29 [ERROR] (mdbook::utils): Error: Summary parsing failed for file="/home/steve/docs/learn_to_code/src/SUMMARY.md"
+2023-04-05 13:22:29 [ERROR] (mdbook::utils): 	Caused By: There was an error parsing the numbered chapters
+2023-04-05 13:22:29 [ERROR] (mdbook::utils): 	Caused By: There was an error parsing the numbered chapters
+2023-04-05 13:22:29 [ERROR] (mdbook::utils): 	Caused By: failed to parse SUMMARY.md line 16, column 3: The link items for nested chapters must only contain a hyperlink
+2023-04-05 13:30:21 [INFO] (mdbook::book): Book building has started
+2023-04-05 13:30:21 [INFO] (mdbook::book): Running the html backend
+2023-04-05 13:30:21 [INFO] (mdbook::cmd::serve): Serving on: http://localhost:3000
+2023-04-05 13:30:21 [INFO] (mdbook::cmd::watch): Listening for changes...
+2023-04-05 13:30:21 [INFO] (warp::server): Server::run; addr=[::1]:3000
+2023-04-05 13:30:21 [INFO] (warp::server): listening on http://[::1]:3000
+2023-04-05 15:00:01 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/SUMMARY.md", "/home/steve/docs/learn_to_code/src/4913", "/home/steve/docs/learn_to_code/src/SUMMARY.md~"]
+2023-04-05 15:00:01 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 15:00:01 [INFO] (mdbook::book): Book building has started
+2023-04-05 15:00:01 [INFO] (mdbook::book): Running the html backend
+2023-04-05 15:00:02 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/loops/README.md", "/home/steve/docs/learn_to_code/src/loops/exits/md", "/home/steve/docs/learn_to_code/src/loops/while.md", "/home/steve/docs/learn_to_code/src/conditional/syntax.md", "/home/steve/docs/learn_to_code/src/op/logical.md", "/home/steve/docs/learn_to_code/src/condition/README.md", "/home/steve/docs/learn_to_code/src/conditional/else.md", "/home/steve/docs/learn_to_code/src/conditional", "/home/steve/docs/learn_to_code/src/op/arithmetic.md", "/home/steve/docs/learn_to_code/src/conditional/conditional.md", "/home/steve/docs/learn_to_code/src/loops/for.md", "/home/steve/docs/learn_to_code/src/conditional/nest.md", "/home/steve/docs/learn_to_code/src/loops", "/home/steve/docs/learn_to_code/src/op/README.md", "/home/steve/docs/learn_to_code/src/condition", "/home/steve/docs/learn_to_code/src/op", "/home/steve/docs/learn_to_code/src/conditional/if.md", "/home/steve/docs/learn_to_code/src/loops/exits", "/home/steve/docs/learn_to_code/src/loops/loops.md"]
+2023-04-05 15:00:02 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 15:00:02 [INFO] (mdbook::book): Book building has started
+2023-04-05 15:00:02 [INFO] (mdbook::book): Running the html backend
+2023-04-05 15:02:25 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/SUMMARY.md", "/home/steve/docs/learn_to_code/src/4913", "/home/steve/docs/learn_to_code/src/SUMMARY.md~"]
+2023-04-05 15:02:25 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 15:02:25 [INFO] (mdbook::book): Book building has started
+2023-04-05 15:02:25 [INFO] (mdbook::book): Running the html backend
+2023-04-05 15:02:27 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/op/dot.md"]
+2023-04-05 15:02:27 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 15:02:27 [INFO] (mdbook::book): Book building has started
+2023-04-05 15:02:27 [INFO] (mdbook::book): Running the html backend
+2023-04-05 15:24:54 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/SUMMARY.md~", "/home/steve/docs/learn_to_code/src/4913", "/home/steve/docs/learn_to_code/src/SUMMARY.md"]
+2023-04-05 15:24:54 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 15:24:54 [WARN] (mdbook::book::summary): Expected a start of a link, actually got Some(Text(Borrowed("[")))
+2023-04-05 15:24:54 [ERROR] (mdbook::cmd::serve): Unable to load the book
+2023-04-05 15:24:54 [ERROR] (mdbook::utils): Error: Summary parsing failed for file="/home/steve/docs/learn_to_code/src/SUMMARY.md"
+2023-04-05 15:24:54 [ERROR] (mdbook::utils): 	Caused By: There was an error parsing the numbered chapters
+2023-04-05 15:24:54 [ERROR] (mdbook::utils): 	Caused By: There was an error parsing the numbered chapters
+2023-04-05 15:24:54 [ERROR] (mdbook::utils): 	Caused By: failed to parse SUMMARY.md line 39, column 4: The link items for nested chapters must only contain a hyperlink
+2023-04-05 15:33:41 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/SUMMARY.md", "/home/steve/docs/learn_to_code/src/SUMMARY.md~", "/home/steve/docs/learn_to_code/src/4913"]
+2023-04-05 15:33:41 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 15:33:41 [INFO] (mdbook::book): Book building has started
+2023-04-05 15:33:41 [INFO] (mdbook::book): Running the html backend
+2023-04-05 15:33:42 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/func/func", "/home/steve/docs/learn_to_code/src/oop", "/home/steve/docs/learn_to_code/src/data/comments.md", "/home/steve/docs/learn_to_code/src/oop/oop.md", "/home/steve/docs/learn_to_code/src/oop/meth.md", "/home/steve/docs/learn_to_code/src/func/recursion.md", "/home/steve/docs/learn_to_code/src/func", "/home/steve/docs/learn_to_code/src/func/user.md", "/home/steve/docs/learn_to_code/src/func/modules.md"]
+2023-04-05 15:33:42 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 15:33:42 [INFO] (mdbook::book): Book building has started
+2023-04-05 15:33:42 [INFO] (mdbook::book): Running the html backend
+2023-04-05 15:57:23 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/SUMMARY.md~", "/home/steve/docs/learn_to_code/src/4913", "/home/steve/docs/learn_to_code/src/SUMMARY.md"]
+2023-04-05 15:57:23 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 15:57:23 [INFO] (mdbook::book): Book building has started
+2023-04-05 15:57:23 [INFO] (mdbook::book): Running the html backend
+2023-04-05 15:57:32 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/SUMMARY.md~", "/home/steve/docs/learn_to_code/src/SUMMARY.md", "/home/steve/docs/learn_to_code/src/4913"]
+2023-04-05 15:57:32 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 15:57:32 [INFO] (mdbook::book): Book building has started
+2023-04-05 15:57:32 [INFO] (mdbook::book): Running the html backend
+2023-04-05 15:59:23 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/4913", "/home/steve/docs/learn_to_code/src/SUMMARY.md~", "/home/steve/docs/learn_to_code/src/SUMMARY.md"]
+2023-04-05 15:59:23 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 15:59:23 [INFO] (mdbook::book): Book building has started
+2023-04-05 15:59:23 [INFO] (mdbook::book): Running the html backend
+2023-04-05 15:59:24 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/tower", "/home/steve/docs/learn_to_code/src/bot"]
+2023-04-05 15:59:24 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 15:59:24 [INFO] (mdbook::book): Book building has started
+2023-04-05 15:59:24 [INFO] (mdbook::book): Running the html backend
+2023-04-05 16:09:38 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/SUMMARY.md", "/home/steve/docs/learn_to_code/src/SUMMARY.md~", "/home/steve/docs/learn_to_code/src/4913"]
+2023-04-05 16:09:38 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 16:09:38 [INFO] (mdbook::book): Book building has started
+2023-04-05 16:09:38 [INFO] (mdbook::book): Running the html backend
+2023-04-05 18:54:59 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/4913", "/home/steve/docs/learn_to_code/src/SUMMARY.md~", "/home/steve/docs/learn_to_code/src/SUMMARY.md"]
+2023-04-05 18:54:59 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 18:54:59 [INFO] (mdbook::book): Book building has started
+2023-04-05 18:54:59 [INFO] (mdbook::book): Running the html backend
+2023-04-05 18:55:00 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/op/compare.md"]
+2023-04-05 18:55:00 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 18:55:00 [INFO] (mdbook::book): Book building has started
+2023-04-05 18:55:00 [INFO] (mdbook::book): Running the html backend
+2023-04-05 19:41:58 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/SUMMARY.md~", "/home/steve/docs/learn_to_code/src/SUMMARY.md", "/home/steve/docs/learn_to_code/src/4913"]
+2023-04-05 19:41:58 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 19:41:58 [INFO] (mdbook::book): Book building has started
+2023-04-05 19:41:58 [INFO] (mdbook::book): Running the html backend
+2023-04-05 19:41:59 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/conversion.md"]
+2023-04-05 19:41:59 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 19:41:59 [INFO] (mdbook::book): Book building has started
+2023-04-05 19:41:59 [INFO] (mdbook::book): Running the html backend
+2023-04-05 19:44:25 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/SUMMARY.md~", "/home/steve/docs/learn_to_code/src/SUMMARY.md", "/home/steve/docs/learn_to_code/src/4913"]
+2023-04-05 19:44:25 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 19:44:25 [INFO] (mdbook::book): Book building has started
+2023-04-05 19:44:25 [INFO] (mdbook::book): Running the html backend
+2023-04-05 19:44:26 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/hello"]
+2023-04-05 19:44:26 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 19:44:26 [INFO] (mdbook::book): Book building has started
+2023-04-05 19:44:26 [INFO] (mdbook::book): Running the html backend
+2023-04-05 19:44:33 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/4913", "/home/steve/docs/learn_to_code/src/SUMMARY.md", "/home/steve/docs/learn_to_code/src/SUMMARY.md~"]
+2023-04-05 19:44:33 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-05 19:44:33 [INFO] (mdbook::book): Book building has started
+2023-04-05 19:44:33 [INFO] (mdbook::book): Running the html backend

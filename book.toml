@@ -1,0 +1,6 @@
+[book]
+authors = ["Stephen Marks"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Learn To Code!"
