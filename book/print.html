@@ -33,6 +33,7 @@
 
     </head>
     <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
         <script>
             var path_to_root = "";
@@ -153,7 +154,27 @@
 <div style="break-before: page; page-break-before: always;"></div><h1 id="executing-python-code"><a class="header" href="#executing-python-code">Executing Python Code</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="data-types--variables"><a class="header" href="#data-types--variables">Data Types &amp; Variables</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="what-is-data"><a class="header" href="#what-is-data">What Is Data?</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="data-types"><a class="header" href="#data-types">Data Types</a></h1>
+<p>Data is simply information. A computer stores data or information in Random Access Mempry (RAM), in sceondary storagelike a hard drive or solid state drive, or in the Central Processing Unit (CPU). And to a computer all dat is just 0s and 1s. Binary code is all a computer truly knows. We can use data to represent different objects, like numbers, words, lists, etc. In a programming language the different objects data can represent are known as <em>data types</em>.</p>
+<h1 id="data-types"><a class="header" href="#data-types">Data Types</a></h1>
+<p>Python has a number of data types that programmers can use to acchomplish their task. They are listed below:</p>
+<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Type</th><th>Description</th><th>Mutable</th><th>Examples</th></tr></thead><tbody>
+<tr><td>Integer</td><td>int</td><td>Any integer</td><td>No</td><td>7,10,24,-24,-8564, 103811</td></tr>
+<tr><td>Floating Point Number</td><td>float</td><td>Any decimal number</td><td>No</td><td>-73.38, 89.92, 1.0001</td></tr>
+<tr><td>Complex</td><td>complex</td><td>Any complex number</td><td>No</td><td>11+7j, -4j</td></tr>
+<tr><td>Boolean</td><td>bool</td><td>A truth value</td><td>No</td><td></td></tr>
+<tr><td>String</td><td>str</td><td>A sequence of characters such as a word or sentence</td><td>No</td><td>&quot;Steve&quot;, &quot;Jenny&quot;, &quot;I saw a balloon.&quot;</td></tr>
+<tr><td>List</td><td>list</td><td>A list of array of the same data objects</td><td>Yes</td><td>[&quot;Me,&quot;You&quot;,&quot;Not Them&quot;]</td></tr>
+<tr><td>Tuple</td><td>tuple</td><td>A list or array of any differing data objects</td><td>No</td><td>(&quot;Me&quot;,&quot;You&quot;,1,2,4.8)</td></tr>
+<tr><td>Dictionary</td><td>dict</td><td>A list of key-value pairs</td><td>Yes</td><td>&quot;Me&quot;:&quot;Yes&quot;, &quot;You&quot;:&quot;Yes&quot;, &quot;Them&quot;:&quot;No&quot;</td></tr>
+<tr><td>Set</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Frozen Set</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Bytes</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Byte Array</td><td></td><td></td><td></td><td></td></tr>
+</tbody></table>
+</div>
+<h1 id="visualizing-data-as-objects"><a class="header" href="#visualizing-data-as-objects">Visualizing Data As Objects</a></h1>
+<p>All the data in your computer's memory are bits, zeroes and ones. The same pattern of bits be defined to represent differnt things. Programming languages keep track of where the data is and what is represents. What the data represents is known as a <em>type</em>. Python groups bit patterns into <em>objects</em>. Objects are like boxes, that keep track of what data is inside of it, what type the data is, where the data is, and how often the data is accessed. Kepp in mind that not all programming languages utilize objects. In some languages, the programmer must keep track of the location of data, and what type that data is themselves. Due to the object paradigm, Python is a <em>strongly typed language</em>. In strongly typed languages, the data type of an object doesn't change unexpectedly. </p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="data-types-1"><a class="header" href="#data-types-1">Data Types</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="type-conversion"><a class="header" href="#type-conversion">Type Conversion</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="variables"><a class="header" href="#variables">Variables</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="commenting"><a class="header" href="#commenting">Commenting</a></h1>
@@ -244,5 +265,6 @@
         });
         </script>
 
+    </div>
     </body>
 </html>
