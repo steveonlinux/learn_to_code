@@ -1,8 +1,8 @@
 # What Is Data?
 
-Data is simply information. A computer stores data or information in Random Access Memory (RAM), in secondary storage like a hard drive or solid state drive, or in the Central Processing Unit (CPU). When programming, we are primarily using data that is being stored in memory. All the data in your computer's memory are bits: zeroes and ones. The same pattern of bits can be defined to represent different things. Programming languages keep track of where the data is and what is represents. What kind of thing the data represents is known as a *type*. 
+Data is simply information. A computer stores data or information in Random Access Mempry (RAM), in sceondary storage like a hard drive or solid state drive, or in the Central Processing Unit (CPU). When programming, we are primarily using data that is being stored in memory. All the data in your computer's memory are bits: zeroes and ones. The same pattern of bits can be defined to represent differnt things. Programming languages keep track of where the data is and what is represents. What kind of thing the data represents is known as a *type*. 
 # Data Types
-Python has a number of data types that programmers can use to accomplish their task. They are listed below:
+Python has a number of data types that programmers can use to acchomplish their task. They are listed below:
 
 | Name                  | Type      | Description                                         | Mutable | Examples                             |
 |-----------------------|-----------|-----------------------------------------------------|---------|--------------------------------------|
@@ -26,5 +26,5 @@ Python groups bit patterns into *objects*. Objects are like boxes, that keep tra
 * Its location in memory
 * How often the object is used
 
-Python is known as an *object oriented* language. Keep in mind that not all programming languages utilize objects. In some languages, the programmer must keep track of the location of data, and what type that data is themselves. Due to the object paradigm, Python is a *strongly typed language*. In strongly typed languages, the data type of an object doesn't change implicitly.
+Python is known as an *object oriented* language. Keep in mind that not all programming languages utilize objects. In some languages, the programmer must keep track of the location of data, and what type tht data is themselves. Due to the object paradigm, Python is a *strongly typed language*. In strongly typed languages, the data type of an object doesn't change implicitly.
 

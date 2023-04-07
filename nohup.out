@@ -283,3 +283,97 @@
 2023-04-06 17:29:56 [INFO] (mdbook::cmd::serve): Building book...
 2023-04-06 17:29:56 [INFO] (mdbook::book): Book building has started
 2023-04-06 17:29:56 [INFO] (mdbook::book): Running the html backend
+2023-04-06 22:56:59 [INFO] (mdbook::book): Book building has started
+2023-04-06 22:56:59 [INFO] (mdbook::book): Running the html backend
+2023-04-06 22:56:59 [INFO] (mdbook::cmd::serve): Serving on: http://localhost:3000
+2023-04-06 22:56:59 [INFO] (mdbook::cmd::watch): Listening for changes...
+2023-04-06 22:56:59 [INFO] (warp::server): Server::run; addr=[::1]:3000
+2023-04-06 22:56:59 [INFO] (warp::server): listening on http://[::1]:3000
+2023-04-06 23:01:08 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/data.md"]
+2023-04-06 23:01:08 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-06 23:01:08 [INFO] (mdbook::book): Book building has started
+2023-04-06 23:01:08 [INFO] (mdbook::book): Running the html backend
+2023-04-06 23:01:59 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/data.md"]
+2023-04-06 23:01:59 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-06 23:01:59 [INFO] (mdbook::book): Book building has started
+2023-04-06 23:01:59 [INFO] (mdbook::book): Running the html backend
+2023-04-06 23:02:13 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/data.md"]
+2023-04-06 23:02:13 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-06 23:02:13 [INFO] (mdbook::book): Book building has started
+2023-04-06 23:02:13 [INFO] (mdbook::book): Running the html backend
+2023-04-06 23:02:32 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/data.md"]
+2023-04-06 23:02:32 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-06 23:02:32 [INFO] (mdbook::book): Book building has started
+2023-04-06 23:02:32 [INFO] (mdbook::book): Running the html backend
+2023-04-06 23:03:13 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/data.md"]
+2023-04-06 23:03:13 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-06 23:03:13 [INFO] (mdbook::book): Book building has started
+2023-04-06 23:03:13 [INFO] (mdbook::book): Running the html backend
+2023-04-06 23:03:32 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/data.md"]
+2023-04-06 23:03:32 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-06 23:03:32 [INFO] (mdbook::book): Book building has started
+2023-04-06 23:03:32 [INFO] (mdbook::book): Running the html backend
+2023-04-06 23:03:47 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/data.md"]
+2023-04-06 23:03:47 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-06 23:03:47 [INFO] (mdbook::book): Book building has started
+2023-04-06 23:03:47 [INFO] (mdbook::book): Running the html backend
+2023-04-06 23:14:52 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/data.md"]
+2023-04-06 23:14:52 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-06 23:14:52 [INFO] (mdbook::book): Book building has started
+2023-04-06 23:14:52 [INFO] (mdbook::book): Running the html backend
+2023-04-06 23:36:15 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/data.md"]
+2023-04-06 23:36:15 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-06 23:36:15 [INFO] (mdbook::book): Book building has started
+2023-04-06 23:36:15 [INFO] (mdbook::book): Running the html backend
+2023-04-06 23:36:54 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/data.md"]
+2023-04-06 23:36:54 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-06 23:36:54 [INFO] (mdbook::book): Book building has started
+2023-04-06 23:36:54 [INFO] (mdbook::book): Running the html backend
+2023-04-06 23:48:51 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/data.md"]
+2023-04-06 23:48:51 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-06 23:48:51 [INFO] (mdbook::book): Book building has started
+2023-04-06 23:48:51 [INFO] (mdbook::book): Running the html backend
+2023-04-06 23:58:57 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/data.md"]
+2023-04-06 23:58:57 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-06 23:58:57 [INFO] (mdbook::book): Book building has started
+2023-04-06 23:58:57 [INFO] (mdbook::book): Running the html backend
+2023-04-06 23:59:25 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/data.md"]
+2023-04-06 23:59:25 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-06 23:59:25 [INFO] (mdbook::book): Book building has started
+2023-04-06 23:59:25 [INFO] (mdbook::book): Running the html backend
+2023-04-06 23:59:46 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/data.md"]
+2023-04-06 23:59:46 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-06 23:59:46 [INFO] (mdbook::book): Book building has started
+2023-04-06 23:59:46 [INFO] (mdbook::book): Running the html backend
+2023-04-06 23:59:51 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/data.md"]
+2023-04-06 23:59:51 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-06 23:59:51 [INFO] (mdbook::book): Book building has started
+2023-04-06 23:59:51 [INFO] (mdbook::book): Running the html backend
+2023-04-07 00:05:00 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/data.md"]
+2023-04-07 00:05:00 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-07 00:05:00 [INFO] (mdbook::book): Book building has started
+2023-04-07 00:05:00 [INFO] (mdbook::book): Running the html backend
+2023-04-07 00:05:35 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/SUMMARY.md"]
+2023-04-07 00:05:35 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-07 00:05:35 [INFO] (mdbook::book): Book building has started
+2023-04-07 00:05:35 [INFO] (mdbook::book): Running the html backend
+2023-04-07 00:06:18 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/SUMMARY.md"]
+2023-04-07 00:06:18 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-07 00:06:18 [INFO] (mdbook::book): Book building has started
+2023-04-07 00:06:18 [INFO] (mdbook::book): Running the html backend
+2023-04-07 00:09:47 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/SUMMARY.md"]
+2023-04-07 00:09:47 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-07 00:09:47 [INFO] (mdbook::book): Book building has started
+2023-04-07 00:09:47 [INFO] (mdbook::book): Running the html backend
+2023-04-07 00:09:48 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/README.md"]
+2023-04-07 00:09:48 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-07 00:09:48 [INFO] (mdbook::book): Book building has started
+2023-04-07 00:09:48 [INFO] (mdbook::book): Running the html backend
+2023-04-07 00:10:48 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/data.md.new"]
+2023-04-07 00:10:48 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-07 00:10:48 [INFO] (mdbook::book): Book building has started
+2023-04-07 00:10:48 [INFO] (mdbook::book): Running the html backend
+2023-04-07 00:11:14 [INFO] (mdbook::cmd::serve): Files changed: ["/home/steve/docs/learn_to_code/src/data/data.md.bak", "/home/steve/docs/learn_to_code/src/data/data.md"]
+2023-04-07 00:11:14 [INFO] (mdbook::cmd::serve): Building book...
+2023-04-07 00:11:14 [INFO] (mdbook::book): Book building has started
+2023-04-07 00:11:14 [INFO] (mdbook::book): Running the html backend
