@@ -42,6 +42,7 @@
 # Projects
 
 - [Hello World!](./hello/README.md)
+- [BizzBuzz](./bizzbuzz/README.md)
 - [Playing The Towers of Hanoi](./tower/README.md)
 - [Building a Reddit Bot](./bot/README.md)
 
