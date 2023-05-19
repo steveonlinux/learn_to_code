@@ -1,0 +1,82 @@
+# Logical Operations
+
+## What is Logic?
+
+Logic is a kind of math that is likely different than what you are familiar with. Logic is used to determine whether something is true or false. And operations in logic
+don't use numbers, but only truth values. As in, true or false. Recall, that computers can only truly understand 0s and 1s. Naturally, logic is applicable to the design and study of computers. Since there are only two psssible values,
+0 can be thought of as false, and 1 as true. And using logic, outcomes can be mathematically calculated within the circuitry of a computer the same way we determine whether something is true. In our case,
+we will use logic to calculated whether somethings is true, or if certain conditions are met, in our code. 
+
+## Truth Tables
+
+Before we discuss the operations themselves, we must first discuss *truth tables*. Truth tables are used to describe the output of an operation given
+the truthfulness of the inputs. Truth tables are a good way of visualizing the way the operations work and what to expect when they are used. A truth table is a table with a 
+column for each input and a column for the output. The table demonstates every possilbe combination of inputs and the output each combination gives.
+
+## Booleans
+Recall that booleans are a data type that only have two possible values, `True` or `False`. Logical operations can only be performed using Boolean values.
+It is common for truthness to be represented as 1 and falseness with 0. And in Python, either the word or numerical representation may be used; the follwowing examples will demonstrate this.
+
+## Operations
+
+There are three logical operations we will use are AND, OR and NOT. Each operation will be discussed and a truth table for each will be provided. Keep in mind
+that the logical operations we will discuss are communiative like addition or multiplication. As in, the order the inputs are given does not change the output. 
+
+#### AND
+AND is an operation that accepts two inputs and the output is only true when **both** inputs are true. AND is also known as a *conjunction*. Here are some examples in Python: 
+
+```Python
+>>> True and False
+False
+>>> 1 and 0
+0
+```
+
+| Input 1 | Input 2 | Output |
+|---------|---------|--------|
+| 1       | 1       | 1      |
+| 1       | 0       | 0      |
+| 0       | 1       | 0      |
+| 0       | 0       | 0      |
+
+*An AND truth table*
+
+#### OR
+
+OR is an operation that accepts two inputs and the output is true whenever **at least one** of the inputs in true. Or is also known as a *disjunction*. Here are some examples in Python:
+
+```Python
+>>> True or False
+True
+>>> 1 or 0
+1
+```
+
+| Input 1 | Input 2 | Output |
+|---------|---------|--------|
+| 1       | 1       | 1      |
+| 1       | 0       | 1      |
+| 0       | 1       | 1      |
+| 0       | 0       | 0      |
+
+*An OR truth table*
+
+#### NOT
+
+Not is an operation that accepts one input and the output is the opposite of the input. This is known as *negation* or *inversion*. Here are some examples in Python:
+
+```Python
+>>> not False
+True
+>>> not 0
+True
+```
+
+| Input 1 | Output |
+|---------|--------|
+| 0       | 1      |
+| 1       | 0      |
+
+*A NOT truth table*
+
+

@@ -2,7 +2,7 @@
 
 ## What Is A Comment?
 
-A comment is simply text in code that is ignored by the interpreter that gives the human reading the code more information. A comment isn't meant for the computer at all, only for humans reading the code.
+A comment is simply text in code that is ignored by the interpreter that gives the human reading more information. A comment isn't meant for the computer at all, only for humans reading the code.
 
 ## When To Use Comments
 
@@ -29,7 +29,7 @@ print("Hello, World!")
 ```
 
 ### Multi-Line Comments
-A multi-line comment is a comment where multiple lines are denoted as being comments. Using a multi-line comments is good for larger blocks of comments like paragraphs.
+A multi-line comment is a comments where multiple lines are denoted as being comments. Using a multiline comments is good for larger blocks of comments like paragraphs.
 Multi-line comments in Python are denoted by, `"""`. Multi-line comments must be opened and closed. In other words, the first will denote the beginning of the comment, and another will denote the end.
 For example:
 

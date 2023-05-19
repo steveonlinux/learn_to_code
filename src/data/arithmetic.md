@@ -1,4 +1,4 @@
-# Arithmetic & Logical Operations
+# Arithmetic Operations
 
 ## Arithmetic Operations
 There are a number of operations in mathematics we can use to calculate values using numbers. These are *arithmetic* operations. The arithimetic operations available to use in Python are listed below:
@@ -56,5 +56,16 @@ Truncation will remove everything after the deciaml point. It is essentially rou
 3.0
 ```
 ### Modulus
-Modulus or mod for short simply returns the remainder of division. 
-## Logical Operations
+Modulus or mod for short simply returns the remainder of division. For example:
+
+```Python
+>>> 7.5 % 2
+1.5
+```
+### Exponentiation
+Exponentiation is raising a number by an exponent. The number being raised, or the base, goes on the left. And the exponent is on the right. For example:
+
+```Python
+>>> 3 ** 2
+9
+```
