@@ -53,8 +53,10 @@ What do you think is now the case? Since a is changed is b now changed as well? 
 ## References 
 In some programming languages the variable name is a *location*, in other words, in those languages a variables name is the name of a place that contains the data. Python IS NOT one of these languages. In Python variables are *references*. They refer to or *point* to a data object. These types of variables are sometimes called *pointers*. 
 
-![](./imgs/pointers.png)
-*Diagram of various variable names pointing to different objects*
+
+![var1](./imgs/var1.drawio.png)
+
+*Diagram of our variable names pointing to different objects*
 
 In short, in Python variables are only names. When you assign a variable, you are simply naming some data object. 
 
@@ -68,7 +70,9 @@ In this Python code snippet, the following occurs:
 
 1. a is pointed to an integer object with a value of 7.
 2. b is pointed to the value that a point to (7).
-3. a is pointed to a new integer object with a value if 11. 
+3. a is pointed to a new integer object with a value if 11.
+
+![var2](./imgs/var2.drawio.png)
 
 So, if you enter `b` into the interpreter, it will return `7`. This is because when you assign b to a, you are simply giving the object `7` two different names: a and b. In other words, you are point b to the same data object a is pointing to. Then, when `a` is assigned to `11`, it is being pointed to a new data object, but that does not change what b is pointing to, so `b` remains 7.
 

@@ -32,14 +32,65 @@ along with the languages, programmers also design and create programs used to co
 
 ### Compilers
 
+Compiled languages are languages where the source code of the language is passed to a *compiler*, which converts the source code to an *executable* or *binary* file. Programs are compiled to be run on
+a specific machine or hardware. Therefore, to be run on another machine, it must be compiled for that machine, and every other machine it is to be ran on. 
+
+![compilers](./imgs/compilers.drawio.png)
+*The path of code from source to executable*.
+
+Compiled languages are often used to control hardware itself. Compiled languages are often used for:
+
+* Robotics
+* Operating Systems
+* Embedded Software
+* Device Drivers
+* Automotives
+* Aeronautics and Aerospace
+* Video Game Engines
+
+Some examples of compiled languages are:
+
+* C
+* C++
+* Rust 
+* Java
+* Go
+
 ### Interpreters
+
+Interpreted languages are languages where the source code of the languages is passed to an *interpreter*. The interpreter does not convert the source code to a binary file, but instead runs the source code itself line by line. Therefore, the source code of an interpreted language can be ran on any machine which runs the interpreter. The source code of interpreted languages is often referred to as *scripts*, and the languages *scripting* languages. This makes interpreted programs easier to run in more places, this is called *portability*. And interpreted languages are generally more portable than compiled ones. 
+
+![interpreters](./imgs/interpreters.drawio.png)
+
+*Source code being given to the interpreter to be ran*.
+
+Interpreted languages are often used for:
+
+* Data Science and Statistics
+* Artificial Intelligence
+* Computing System Administration
+
+Some examples of interpreted languages are:
+
+* Python
+* JavaScript 
+* Shell 
+* Powershell
+* Ruby
+* Lua
 
 ## Why Python?
 
-Python is a programming language that is commonly used to teach new programmers the basics. This is because Python's design makes it a simpler language to read and write.
+Python is an interpreted programming language that is commonly used to teach new programmers the basics. This is because Python's design makes it a simpler language to read and write.
 
 ### Syntax
 
 *Syntax* is the rules by which something is written. For example, in English adjectives come before nouns; and verbs tend to come before subjects. This is an example of English's syntax. However,
 in Spanish adjectives tend to come after verbs. This is an example of Spanish's syntax and how human languages can differ in syntax.
 The same is true for computer languages; the rules of writing something with the same meaning differs between languages. However, once you understand the basic concepts of programming, beginning to learn a new language is only a matter of getting familiar with its syntax.
+
+### Portability
+Python is *portable*, as in, it can be ran in many places, such as a desktop, laptop, phone, or tablet.
+
+### Popularity
+Python is an **extremely** popular language that is used across the world by both individuals and large companies and organizations.

@@ -27,32 +27,32 @@ Any structure involving conditions in Python - and most programming languages in
 
 *Flow chart illustrating conditionals*
 
-Conditional structures in Python have a specific syntax like all programming languages. In Python:
-- The line of the conditional statement is ended with a colon: `:`.
+Conditional structures in Python have a specific syantax like all programming languages. In Python:
+- The line of the conditional statement is eneded with a colon: `:`.
 - Every line of the body is indented
 
 Indentation is very important in Python. In Python indentation is how the body of certain structures are distinguished form other parts of the structure by the interpreter.
 
 ## if statements 
 
-If statements are one of the most basic structures of programming that we will often use. An if statement executes code based on whether a given condition is true. Here is an example of a basic if statement in Python:
+If statements are one of the most basic structues of programming that we will often use. An if statement executes code based on whether a given condition is true. Here is an example of a basic if statement in Python:
 
 ```Python
 if (True):
     print("Hello World!")
 ```
-Using this specific example we can note things about the syntax of an if statement specific to Python:
+Using this specific example we can note things about the syntax of an if statement specifc to Python:
 
 - The if statement is began with the `if` keyword.
 - The condition to be checked is enclosed in parentheses
 - The line of conditional statement is ended with a colon
 - Every line of the body is indented
 
-In this specific example the the body will always execute since `True` is always true. The next example will have a more complicated condition:
+In this specific example the the body will always execute since True is always True. The next example will have a more complicated condition:
 
 ```Python
 x = 10
 if ( x > 21 ):
-	print("x is larger than 21")
+	print("x is larger than 21)
 ```
 In this case, the body does not execute. Try replacing x with a larger number, so that the body does execute.

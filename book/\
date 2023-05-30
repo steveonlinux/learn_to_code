@@ -6,6 +6,7 @@
 	- [What Is Programming?](./started/what.md)
 	- [Programming Languages](./started/langs.md)
 	- [Text Editors, IDEs, and PDEs](./started/ide.md)
+	- [Version Control](./started/ver.md)
 	- [Installing Python](./started/install_py.md)
 	- [Executing Python Code](./started/run.md)
 - [Data Types & Variables](./data/README.md)
