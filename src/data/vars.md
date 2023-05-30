@@ -88,4 +88,11 @@ Your variable names should be:
 
 A common variable naming convention used is called *camelCase*. camelCase separates multiple words in a name by capitalizing the last word of the variable name. Another common convention is *snake_case*. Where the words in the name are separated by underscores. snake_case is commonly used in Python and is what will be used in this book.
 
+---
+
+This section introduced variables, which in Python, are names or references to objects. In the next sections operations that can be used on variables, and thus objects, will be introduced.
+
+## Further Reading
+[Variable](https://en.wikipedia.org/wiki/Variable_(computer_science))
+
 

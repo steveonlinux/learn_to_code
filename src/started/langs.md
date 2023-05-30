@@ -23,8 +23,7 @@ An imperative language offers the instructions or commands to a computer it need
 - Rust
 
 And many programming languages have the capability to be both declarative and imperative. There are many programming languages that have been designed and created in history by individuals, groups, organizations, and corporations
-all over the world. However, the book will use imperative programming with the programming language **Python** to teach the basic concepts of programming. By understanding basic programming concepts, the languages you choose
-to write in become secondary.
+all over the world. However, the book will use imperative programming with the programming language **Python** to teach the basic concepts of programming. By understanding basic programming concepts, the languages you choose to write in will become secondary.
 
 ## Compiled vs Interpreted
 The only thing a computer truly understands is 0s and 1s. *Binary code*. Also known as *machine code* or *machine instructions*. All the code written has to be somehow converted to 0s and 1s. So, 
@@ -90,7 +89,21 @@ in Spanish adjectives tend to come after verbs. This is an example of Spanish's 
 The same is true for computer languages; the rules of writing something with the same meaning differs between languages. However, once you understand the basic concepts of programming, beginning to learn a new language is only a matter of getting familiar with its syntax.
 
 ### Portability
-Python is *portable*, as in, it can be ran in many places, such as a desktop, laptop, phone, or tablet.
+Python is *portable*, as in, the interpreter can be ran in many places, such as a desktop, laptop, phone, or tablet.
 
 ### Popularity
 Python is an **extremely** popular language that is used across the world by both individuals and large companies and organizations.
+
+---
+
+This was just an **introduction** to the different programming paradigms and types of programming languages. There are many more categories languages can be divided and subdivided into. These categories aren't discussed here because they require a more advanced understanding of how programming languages work and are designed.
+
+Python's design is what makes it suitable for both beginners and experienced programmers; and its design is why it is the most popular programming language in the world as of this writing. Next you will learn what programs can be used to actually write code in any given programming language, including Python.
+
+## Further Reading
+[Programming Paradigms](https://en.wikipedia.org/wiki/Programming_paradigm)
+
+[Interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing))
+
+[Compiler](https://en.wikipedia.org/wiki/Compiler)
+

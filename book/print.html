@@ -169,8 +169,7 @@ could be &quot;The ball is red&quot;. Some examples of imperative languages are:
 <li>Rust</li>
 </ul>
 <p>And many programming languages have the capability to be both declarative and imperative. There are many programming languages that have been designed and created in history by individuals, groups, organizations, and corporations
-all over the world. However, the book will use imperative programming with the programming language <strong>Python</strong> to teach the basic concepts of programming. By understanding basic programming concepts, the languages you choose
-to write in become secondary.</p>
+all over the world. However, the book will use imperative programming with the programming language <strong>Python</strong> to teach the basic concepts of programming. By understanding basic programming concepts, the languages you choose to write in will become secondary.</p>
 <h2 id="compiled-vs-interpreted"><a class="header" href="#compiled-vs-interpreted">Compiled vs Interpreted</a></h2>
 <p>The only thing a computer truly understands is 0s and 1s. <em>Binary code</em>. Also known as <em>machine code</em> or <em>machine instructions</em>. All the code written has to be somehow converted to 0s and 1s. So, 
 along with the languages, programmers also design and create programs used to convert the code to binary. There are two primary ways of converting code to what a computer understands.</p>
@@ -223,9 +222,16 @@ a specific machine or hardware. Therefore, to be run on another machine, it must
 in Spanish adjectives tend to come after verbs. This is an example of Spanish's syntax and how human languages can differ in syntax.
 The same is true for computer languages; the rules of writing something with the same meaning differs between languages. However, once you understand the basic concepts of programming, beginning to learn a new language is only a matter of getting familiar with its syntax.</p>
 <h3 id="portability"><a class="header" href="#portability">Portability</a></h3>
-<p>Python is <em>portable</em>, as in, it can be ran in many places, such as a desktop, laptop, phone, or tablet.</p>
+<p>Python is <em>portable</em>, as in, the interpreter can be ran in many places, such as a desktop, laptop, phone, or tablet.</p>
 <h3 id="popularity"><a class="header" href="#popularity">Popularity</a></h3>
 <p>Python is an <strong>extremely</strong> popular language that is used across the world by both individuals and large companies and organizations.</p>
+<hr />
+<p>This was just an <strong>introduction</strong> to the different programming paradigms and types of programming languages. There are many more categories languages can be divided and subdivided into. These categories aren't discussed here because they require a more advanced understanding of how programming languages work and are designed.</p>
+<p>Python's design is what makes it suitable for both beginners and experienced programmers; and its design is why it is the most popular programming language in the world as of this writing. Next you will learn what programs can be used to actually write code in any given programming language, including Python.</p>
+<h2 id="further-reading"><a class="header" href="#further-reading">Further Reading</a></h2>
+<p><a href="https://en.wikipedia.org/wiki/Programming_paradigm">Programming Paradigms</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Interpreter_(computing)">Interpreter</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Compiler">Compiler</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="text-editors-ides-and-pdes"><a class="header" href="#text-editors-ides-and-pdes">Text Editors, IDEs, and PDEs</a></h1>
 <p>Ultimately, all the code we write is just text. Instructions that we type and give to a computer to perform. However,
 there are different kinds of programs we can use to write code more easily, and efficiently.</p>
@@ -275,7 +281,12 @@ Some examples of popular IDEs used today are: </p>
 <h2 id="personalized-development-environments-or-pdes"><a class="header" href="#personalized-development-environments-or-pdes">Personalized Development Environments or PDEs</a></h2>
 <p>There is a lesser known concept of a <em>personalized development environment</em> or <em>pde</em>. This is essentially a text editor that has been customized extensively by installing plugins and other software. So, it
 is a text editor that has been personalized by the user for their own, specific use. Two editors that are commonly personalized by users are VIM and Emacs.</p>
+<hr />
+<p>These types of programs are plentiful and it is common practice to try as many as one likes to find one that suits their preferences and the language they are writing in.</p>
+<h2 id="further-reading-1"><a class="header" href="#further-reading-1">Further Reading</a></h2>
+<p><a href="https://en.wikipedia.org/wiki/Integrated_development_environment">Integrated Development Environment</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="installing-python"><a class="header" href="#installing-python">Installing Python</a></h1>
+<h2 id="windows"><a class="header" href="#windows">Windows</a></h2>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="executing-python-code"><a class="header" href="#executing-python-code">Executing Python Code</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="data-types--variables"><a class="header" href="#data-types--variables">Data Types &amp; Variables</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="what-is-data"><a class="header" href="#what-is-data">What Is Data?</a></h1>
@@ -299,6 +310,8 @@ is a text editor that has been personalized by the user for their own, specific 
 <tr><td>ByteArray</td><td>bytearray</td><td>A list or array of byte values</td><td>Yes</td><td>bytearray(...)</td></tr>
 </tbody></table>
 </div>
+<p><img src="data/./imgs/types2.png" alt="types" /></p>
+<p><em>By Максим Пе - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=74062464</em></p>
 <h1 id="visualizing-objects"><a class="header" href="#visualizing-objects">Visualizing Objects</a></h1>
 <p>Python groups bit patterns into <em>objects</em>. Objects are like boxes, that keep track of: </p>
 <ul>
@@ -307,7 +320,13 @@ is a text editor that has been personalized by the user for their own, specific 
 <li>Its location in memory</li>
 <li>How often the object is used</li>
 </ul>
+<p><em>An object's type determines what its possible values are and what operations can be performed on it</em>.</p>
 <p>Python is known as an <em>object oriented</em> language. Keep in mind that not all programming languages utilize objects. In some languages, the programmer must keep track of the location of data, and what type that data is themselves. Due to the object paradigm, Python is a <em>strongly typed language</em>. In strongly typed languages, the data type of an object doesn't change implicitly. Essentially, data objects are like a box that exists somewhere in the computer's memory. This box contains the data itself, and everything the computer needs to know what that data means and to use that data. In the next section, we'll cover variables, which are used to give names to different objects.</p>
+<hr />
+<p>Knowing the different data types a programming language offers allows you to know what ways the language allows you to represent and store information. Since many of the data types Python offers are unique to Python, such as Dictionaries, Sets, and Tuples, we will focus on types that can be found in programming languages more generally. Throughout the book we will focus on the numerical data types, strings, lists, and booleans extensively. In the next sections, we will learn how to name objects of any type using <em>variables</em>.</p>
+<h2 id="further-reading-2"><a class="header" href="#further-reading-2">Further Reading</a></h2>
+<p><a href="https://en.wikipedia.org/wiki/Data_type">Data Types</a></p>
+<p><a href="https://docs.python.org/3/library/stdtypes.html">Python Built-in Types</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="variables"><a class="header" href="#variables">Variables</a></h1>
 <p>There are two ways to represent data values in python:</p>
 <ul>
@@ -379,6 +398,10 @@ a = 11
 <li>Unique</li>
 </ul>
 <p>A common variable naming convention used is called <em>camelCase</em>. camelCase separates multiple words in a name by capitalizing the last word of the variable name. Another common convention is <em>snake_case</em>. Where the words in the name are separated by underscores. snake_case is commonly used in Python and is what will be used in this book.</p>
+<hr />
+<p>This section introduced variables, which in Python, are names or references to objects. In the next sections operations that can be used on variables, and thus objects, will be introduced.</p>
+<h2 id="further-reading-3"><a class="header" href="#further-reading-3">Further Reading</a></h2>
+<p><a href="https://en.wikipedia.org/wiki/Variable_(computer_science)">Variable</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="arithmetic-operations"><a class="header" href="#arithmetic-operations">Arithmetic Operations</a></h1>
 <h2 id="arithmetic-operations-1"><a class="header" href="#arithmetic-operations-1">Arithmetic Operations</a></h2>
 <p>There are a number of operations in mathematics we can use to calculate values using numbers. These are <em>arithmetic</em> operations. The arithimetic operations available to use in Python are listed below:</p>
@@ -489,6 +512,17 @@ True
 </div>
 <p><em>A NOT truth table</em></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="methods-or-dot-functions"><a class="header" href="#methods-or-dot-functions">Methods or Dot Functions</a></h1>
+<p>A data type defines what operations can be used on that type and what <em>methods</em> or <em>dot functions</em> exist for objects of that type. These concepts will be covered more deeply near the end of the book, but for now know that this essentially means that the designers of Python designed functions for every data type to be manipulated. We will focus on the <em>string</em> and the <em>list</em> data types. We will use the built in functionality that Python offers to manipulate these data types.</p>
+<h2 id="dot-function-syntax"><a class="header" href="#dot-function-syntax">Dot Function Syntax</a></h2>
+<p>A <em>dot function</em> is a function that operates on an object of a specific type or <em>class</em>. They are also referred to as <em>methods</em>. The syntax of calling a dot function is appending a dot to the end of an
+object followed by the fucntion name and a parenthetical:</p>
+<pre><code class="language-Python">object.functionName()
+</code></pre>
+<p>The function takes the object as an input, and outputs something based on the input and the function's definition. Remember that the function must be for the data type of the object. Again, we will be using methods that are built into Python by its developers for use on its data types.</p>
+<h2 id="strings"><a class="header" href="#strings">Strings</a></h2>
+<h3 id="concatenation"><a class="header" href="#concatenation">Concatenation</a></h3>
+<p>The <code>+</code> operator not only works for numbers but also strings. When two strings are &quot;added&quot;, the string on the right will be appended to the one on the left. This is known as <em>concatenation</em>.</p>
+<p>For example:</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="type-conversion"><a class="header" href="#type-conversion">Type Conversion</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="commenting"><a class="header" href="#commenting">Commenting</a></h1>
 <h2 id="what-is-a-comment"><a class="header" href="#what-is-a-comment">What Is A Comment?</a></h2>
@@ -553,9 +587,9 @@ Booleans are either true or false. In programming we use Booleans to represent t
 <p>Any structure involving conditions in Python - and most programming languages in general - follows the same basic formatting. </p>
 <ol>
 <li>A condition is checked</li>
-<li>If the condition is true, the <em>body</em> executes*. The body is the code block that will execute if condition is true.</li>
+<li>If the condition is true, the <em>body</em> executes. The body is the code block that will execute if condition is true.</li>
 </ol>
-<p><img src="conditional/./imgs/conditionals.png" alt="if" /></p>
+<p><img src="conditional/./imgs/conditionals.drawio.png" alt="if" /></p>
 <p><em>Flow chart illustrating conditionals</em></p>
 <p>Conditional structures in Python have a specific syntax like all programming languages. In Python:</p>
 <ul>

@@ -21,9 +21,9 @@ Booleans are either true or false. In programming we use Booleans to represent t
 Any structure involving conditions in Python - and most programming languages in general - follows the same basic formatting. 
 
 1. A condition is checked
-2. If the condition is true, the *body* executes*. The body is the code block that will execute if condition is true.
+2. If the condition is true, the *body* executes. The body is the code block that will execute if condition is true.
 
-![if](./imgs/conditionals.png)
+![if](./imgs/conditionals.drawio.png)
 
 *Flow chart illustrating conditionals*
 
