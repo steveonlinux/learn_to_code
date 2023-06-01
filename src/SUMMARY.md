@@ -20,7 +20,6 @@
 	- [Comparison Operators](./conditional/operators.md)
 	- [if Statements](./conditional/if.md)
 	- [else Statements](./conditional/else.md)
-	- [Chaining & Nesting](./conditional/nest.md)
 - [Loops](./loops/README.md)
 	- [What Is a Loop?](./loops/loops.md)
 	- [While & Do-While Loops](./loops/while.md)

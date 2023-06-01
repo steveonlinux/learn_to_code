@@ -24,7 +24,7 @@ The *elif* statement - short for *else if* however, is an *else* statement with 
 
 ![elif](./imgs/elif.drawio.png)
 
-*The flow from if to elif to else statement*
+*The flow from if to elif to else sattement*
 
 ```Python
 x = 19
