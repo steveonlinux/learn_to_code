@@ -143,7 +143,7 @@
                     <main>
                         <h1 id="arithmetic-operations"><a class="header" href="#arithmetic-operations">Arithmetic Operations</a></h1>
 <h2 id="arithmetic-operations-1"><a class="header" href="#arithmetic-operations-1">Arithmetic Operations</a></h2>
-<p>There are a number of operations in mathematics we can use to calculate values using numbers. These are <em>arithmetic</em> operations. The arithimetic operations available to use in Python are listed below:</p>
+<p>There are a number of operations in mathematics we can use to calculate values using numbers. These are <em>arithmetic</em> operations. The arithmetic operations available to use in Python are listed below:</p>
 <div class="table-wrapper"><table><thead><tr><th>Operator</th><th>Description</th><th>Example</th><th>Result Returned</th></tr></thead><tbody>
 <tr><td>+</td><td>Addition</td><td>7+7</td><td>14</td></tr>
 <tr><td>-</td><td>Subtraction</td><td>70-1</td><td>69</td></tr>
@@ -178,7 +178,7 @@ And we can include as many <em>operands</em> as possible. An operand is any obje
 3.75
 </code></pre>
 <h4 id="division-with-truncation"><a class="header" href="#division-with-truncation">Division With Truncation</a></h4>
-<p>Truncation will remove everything after the deciaml point. It is essentially rounding or removing any remainder. For example:</p>
+<p>Truncation will remove everything after the decimal point. It is essentially rounding or removing any remainder. For example:</p>
 <pre><code class="language-Python">&gt;&gt;&gt; 7.5 // 2
 3.0
 </code></pre>
@@ -192,6 +192,37 @@ And we can include as many <em>operands</em> as possible. An operand is any obje
 <pre><code class="language-Python">&gt;&gt;&gt; 3 ** 2
 9
 </code></pre>
+<h2 id="assignment-operators"><a class="header" href="#assignment-operators">Assignment Operators</a></h2>
+<p>Assignment operators are operators that allow us to both conduct an arithmetic operation on a variable and assign the result to the variable with a single operation. In other words, the arithmetic operation and assignment operation are combined into one step.</p>
+<p>The assignment operators found in Python are listed below </p>
+<div class="table-wrapper"><table><thead><tr><th>Operator</th><th>Description</th></tr></thead><tbody>
+<tr><td>=</td><td>Assigns value to variable</td></tr>
+<tr><td>+=</td><td>Adds value and assigns result</td></tr>
+<tr><td>-=</td><td>Subtracts by value and assigns result</td></tr>
+<tr><td>*=</td><td>Multiplies by value and assigns result</td></tr>
+<tr><td>/=</td><td>Divides by value and assigns result</td></tr>
+<tr><td>**=</td><td>Raises by power and assigns result</td></tr>
+<tr><td>%=</td><td>Computes modulus between value and assigns result</td></tr>
+<tr><td>//</td><td>Floor divides by value and assigns result</td></tr>
+</tbody></table>
+</div>
+<p>Not every operator will be given an example for the sake of brevity, but the concept is the same for all. Let's use multiplication for our example. Consider:</p>
+<pre><code class="language-Python">&gt;&gt;&gt; myNumber = 7
+&gt;&gt;&gt; myNumber = myNumber * 7
+&gt;&gt;&gt; myNumber
+49
+</code></pre>
+<p>Here <code>myNumber</code> is assigned to 7. Then it is assigned to itself times 7 which is 49. And when returned it is now assigned to 49. Where it is being assigned to itself times 7 can be combined into a single operation with an assignment operator.</p>
+<pre><code class="language-Python">&gt;&gt;&gt; myNumber = 7
+&gt;&gt;&gt; myNumber *= 7
+&gt;&gt;&gt; myNumber
+49
+</code></pre>
+<p>The result of this code block is the same, however the multiplication and reassignment of <code>myNumber</code> is combined into the <code>*=</code> operator.</p>
+<hr />
+<p>This section described Python's arithmetic operations. To see more examples of these operations in use check the appendix. The next section will cover logical operations.</p>
+<h2 id="further-reading"><a class="header" href="#further-reading">Further Reading</a></h2>
+<p><a href="https://python-reference.readthedocs.io/en/latest/docs/operators/#arithmetic-operators">Arithmetic Operations</a></p>
 
                     </main>
 

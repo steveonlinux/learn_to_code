@@ -5,7 +5,7 @@ A data type defines what operations can be used on that type and what *methods* 
 ## Dot Function Syntax
 
 A *dot function* is a function that operates on an object of a specific type or *class*. They are also referred to as *methods*. The syntax of calling a dot function is appending a dot to the end of an
-object followed by the function name and a parenthetical:
+object followed by the fucntion name and a parenthetical:
 
 ```Python
 object.functionName()
@@ -29,7 +29,7 @@ Here the string `y` is appended to the string `x`.
 
 ### Capitalization
 
-Now say I need to capitalize every word of this sentence. We can use the `.title()` function to accomplish this.
+Now say I need to capitalize every word of this sentence. We can use the `.title()` function to acchomplish this.
 
 ```Python
 >>> x = "hello"
@@ -58,7 +58,7 @@ Note that dot functions can be listed one after the other. They work in order fr
 >>> z
 'Hello World!'
 ```
-Here the same is accomplished by assigning `x+y` to `z` and using the functions on z one at a time. The main difference between these two ways is that some would say one is more readable by a human than the other. Depending on the context this may be true.
+Here the same is acchomplised by assigning `x+y` to `z` and using the functions on z one at a time. The main difference bewteen these two ways is that some would say one is more readable by a human than the other. Depending on the context this may be true.
 
 ## Lists
 Python contains numerous built in methods for manipulating lists.
@@ -69,7 +69,7 @@ Say I have a list of numbers 1 - 10:
 ```
 
 ### Append
-The `.append()` method will add a new object to the end of a list. I will continue the pattern and add `11`.
+The `.append()` method will add a new obejct to the end of a list. I will continue the pattern and add `11`.
 ```Python
 >>> myList = [1,2,3,4,5,6,7,8,9,10]
 >>> myList.append(11)
@@ -87,7 +87,7 @@ The `.pop` method will remove or "pop" the first last object out of the list.
 ```
 ### Reverse
 
-The `.reverse()` method reverses the order of all elements in a list. 
+The `.reverse()` method reverese the order of all elements in a list. 
 ```Python
 >>> myList.reverse()
 >>> myList

@@ -87,7 +87,7 @@ The assignment operators found in Python are listed below
 | %=        | Computes modulus between value and assigns result  |
 | //        | Floor divides by value and assigns result          |
 
-Not every operator will be given an example for the sake of brevity, but the concept is the same for all. Let's use multiplication for our example. Consider:
+Not every operator will be given an example for the sake of bevity, but the concept is the same for all. Let's use multiplication for our example. Consider:
 
 ```Python
 >>> myNumber = 7
@@ -103,7 +103,7 @@ Here `myNumber` is assigned to 7. Then it is assigned to itself times 7 which is
 >>> myNumber
 49
 ```
-The result of this code block is the same, however the multiplication and reassignment of `myNumber` is combined into the `*=` operator.
+The result of this code block is the same, however the multiplication andf reassignment of `myNumber` is combined ino the `*=` operator.
 
 ---
 

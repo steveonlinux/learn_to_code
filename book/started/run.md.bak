@@ -16,6 +16,6 @@ If using the terminal, the command `python` calls the interpreter. Now this comm
 
 ## Interactive Mode
 
-*Interactive Mode* is where the interpreter provides a *shell* or an environment that allows us to execute code as it is given to the interpreter. This mode is generally used for things like quick math or small tests. 
+*Interactive Mode* is where the interpreter provides a *shell* or an environment that allows us to execute code as it is given to the interpreter. This mode is gnerally used for things like quick math or small tests. 
 
-Your IDE may provide a window where a shell is visible. Otherwise, to reach the interactive mode you simply type `python` into a terminal without any arguments and hit `Enter`. Whether your IDE provides a shell or you reach a shell in your terminal you will see a *prompt*. A prompt denotes a new line where commands or code will be entered. You should see `>>>` as your prompt when in interactive mode. From here you can type any Python code you like, and every time you hit `Enter`, that line, and that line alone, will be interpreted. 
+Your IDE may provide a window where a shell is visible. Otherwise, to reach the interactive mode you simply type `python` into a terminal without any arguments and hit `Enter`. Whether yor IDE provides a shell or you reach a shell in your terminal you will see a *prompt*. A prompt denotes a new line where commands or code will be entered. You should see `>>>` as your prompt when in interactive mode. Frome here you can type any Python code you liek, and everytime you hit `Enter`, that line, and that line alone, will be interpreted. 

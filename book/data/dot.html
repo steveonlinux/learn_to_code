@@ -145,7 +145,7 @@
 <p>A data type defines what operations can be used on that type and what <em>methods</em> or <em>dot functions</em> exist for objects of that type. These concepts will be covered more deeply near the end of the book, but for now know that this essentially means that the designers of Python designed functions for every data type to be manipulated. We will focus on the <em>string</em> and the <em>list</em> data types. We will use the built in functionality that Python offers to manipulate these data types.</p>
 <h2 id="dot-function-syntax"><a class="header" href="#dot-function-syntax">Dot Function Syntax</a></h2>
 <p>A <em>dot function</em> is a function that operates on an object of a specific type or <em>class</em>. They are also referred to as <em>methods</em>. The syntax of calling a dot function is appending a dot to the end of an
-object followed by the fucntion name and a parenthetical:</p>
+object followed by the function name and a parenthetical:</p>
 <pre><code class="language-Python">object.functionName()
 </code></pre>
 <p>The function takes the object as an input, and outputs something based on the input and the function's definition. Remember that the function must be for the data type of the object. Again, we will be using methods that are built into Python by its developers for use on its data types.</p>
@@ -153,6 +153,66 @@ object followed by the fucntion name and a parenthetical:</p>
 <h3 id="concatenation"><a class="header" href="#concatenation">Concatenation</a></h3>
 <p>The <code>+</code> operator not only works for numbers but also strings. When two strings are &quot;added&quot;, the string on the right will be appended to the one on the left. This is known as <em>concatenation</em>.</p>
 <p>For example:</p>
+<pre><code class="language-Python">&gt;&gt;&gt; x = &quot;hello&quot;
+&gt;&gt;&gt; y = &quot; world! &quot;
+&gt;&gt;&gt; x+y
+'hello world! '
+</code></pre>
+<p>Here the string <code>y</code> is appended to the string <code>x</code>.</p>
+<h3 id="capitalization"><a class="header" href="#capitalization">Capitalization</a></h3>
+<p>Now say I need to capitalize every word of this sentence. We can use the <code>.title()</code> function to accomplish this.</p>
+<pre><code class="language-Python">&gt;&gt;&gt; x = &quot;hello&quot;
+&gt;&gt;&gt; y = &quot; world! &quot;
+&gt;&gt;&gt; (x+y).title()
+'Hello World! '
+</code></pre>
+<h3 id="strip-whitespace"><a class="header" href="#strip-whitespace">Strip Whitespace</a></h3>
+<p>Now say I want to remove the <em>whitespace</em> I left at the end of the string. Whitespace is any space that isn't text such as a <code>Space</code> or <code>Tab</code>. The <code>.strip()</code> function does this.</p>
+<pre><code class="language-Python">&gt;&gt;&gt; x = &quot;hello&quot;
+&gt;&gt;&gt; y = &quot; world! &quot;
+&gt;&gt;&gt; (x+y).title().strip()
+'Hello World!'
+</code></pre>
+<p>Note that dot functions can be listed one after the other. They work in order from outside in. In other words, from right to left.</p>
+<pre><code class="language-Python">&gt;&gt;&gt; x = &quot;hello&quot;
+&gt;&gt;&gt; y = &quot; world! &quot;
+&gt;&gt;&gt; z = x + y
+&gt;&gt;&gt; z = z.strip()
+&gt;&gt;&gt; z = z.title()
+&gt;&gt;&gt; z
+'Hello World!'
+</code></pre>
+<p>Here the same is accomplished by assigning <code>x+y</code> to <code>z</code> and using the functions on z one at a time. The main difference between these two ways is that some would say one is more readable by a human than the other. Depending on the context this may be true.</p>
+<h2 id="lists"><a class="header" href="#lists">Lists</a></h2>
+<p>Python contains numerous built in methods for manipulating lists.
+Say I have a list of numbers 1 - 10:</p>
+<pre><code class="language-Python">&gt;&gt;&gt; myList = [1,2,3,4,5,6,7,8,9,10]
+</code></pre>
+<h3 id="append"><a class="header" href="#append">Append</a></h3>
+<p>The <code>.append()</code> method will add a new object to the end of a list. I will continue the pattern and add <code>11</code>.</p>
+<pre><code class="language-Python">&gt;&gt;&gt; myList = [1,2,3,4,5,6,7,8,9,10]
+&gt;&gt;&gt; myList.append(11)
+&gt;&gt;&gt; myList
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+</code></pre>
+<h3 id="pop"><a class="header" href="#pop">Pop</a></h3>
+<p>The <code>.pop</code> method will remove or &quot;pop&quot; the first last object out of the list. </p>
+<pre><code class="language-Python">&gt;&gt;&gt; myList.pop()
+11
+&gt;&gt;&gt; myList
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+</code></pre>
+<h3 id="reverse"><a class="header" href="#reverse">Reverse</a></h3>
+<p>The <code>.reverse()</code> method reverses the order of all elements in a list. </p>
+<pre><code class="language-Python">&gt;&gt;&gt; myList.reverse()
+&gt;&gt;&gt; myList
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+</code></pre>
+<hr />
+<p>This section is just a small taste of the different built-in methods Python has to offer. Every data type has a number of methods available for use. The list of methods used and discussed in this book is by no means exhaustive. Refer to the Python documentation for more information. Links to some of the documentation are below. </p>
+<h2 id="further-reading"><a class="header" href="#further-reading">Further Reading</a></h2>
+<p><a href="https://docs.python.org/3/tutorial/datastructures.html">Python Docs on List Methods</a></p>
+<p><a href="https://docs.python.org/3/library/stdtypes.html#string-methods">Python Docs on String Methods</a></p>
 
                     </main>
 

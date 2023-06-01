@@ -288,6 +288,17 @@ is a text editor that has been personalized by the user for their own, specific 
 <div style="break-before: page; page-break-before: always;"></div><h1 id="installing-python"><a class="header" href="#installing-python">Installing Python</a></h1>
 <h2 id="windows"><a class="header" href="#windows">Windows</a></h2>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="executing-python-code"><a class="header" href="#executing-python-code">Executing Python Code</a></h1>
+<p>There are two ways Python code can be ran or <em>executed</em>. </p>
+<h2 id="script-mode"><a class="header" href="#script-mode">Script Mode</a></h2>
+<p><em>Script mode</em> is where any entire program or <em>script</em> is written from beginning to end and then saved as a file. That file is then passed to the interpreter for the interpreter to execute the script, line by line, from beginning to end. </p>
+<h3 id="write-and-save-a-py-file"><a class="header" href="#write-and-save-a-py-file">Write And Save A .py File</a></h3>
+<p>For the Python interpreter, the file should be save as a <code>.py</code> file. For example say I wrote a Python script named myscript, I would save this file as <code>myscript.py</code>. </p>
+<h3 id="executing-a-python-script"><a class="header" href="#executing-a-python-script">Executing A Python Script</a></h3>
+<p>Depending on your preference you can either run your script in an IDE or the terminal.</p>
+<p>If using the terminal, the command <code>python</code> calls the interpreter. Now this command takes an <em>argument</em> that is the name of the script file. So, if I wanted to run <code>myscript.py</code> I would make sure I am in the directory that contains the file and type into the terminal <code>python myscript.py</code> and press <code>enter</code>. This calls the interpreter, and gives it my script to run.</p>
+<h2 id="interactive-mode"><a class="header" href="#interactive-mode">Interactive Mode</a></h2>
+<p><em>Interactive Mode</em> is where the interpreter provides a <em>shell</em> or an environment that allows us to execute code as it is given to the interpreter. This mode is generally used for things like quick math or small tests. </p>
+<p>Your IDE may provide a window where a shell is visible. Otherwise, to reach the interactive mode you simply type <code>python</code> into a terminal without any arguments and hit <code>Enter</code>. Whether your IDE provides a shell or you reach a shell in your terminal you will see a <em>prompt</em>. A prompt denotes a new line where commands or code will be entered. You should see <code>&gt;&gt;&gt;</code> as your prompt when in interactive mode. From here you can type any Python code you like, and every time you hit <code>Enter</code>, that line, and that line alone, will be interpreted. </p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="data-types--variables"><a class="header" href="#data-types--variables">Data Types &amp; Variables</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="what-is-data"><a class="header" href="#what-is-data">What Is Data?</a></h1>
 <p>Data is simply information. A computer stores data or information in Random Access Memory (RAM), in secondary storage like a hard drive or solid state drive, or in the Central Processing Unit (CPU). When programming, we are primarily using data that is being stored in memory. All the data in your computer's memory are bits: zeroes and ones. This is all a computer truly knows. The same pattern of bits can be defined to represent different things. Programming languages keep track of where the data is and what is represents. What kind of thing the data represents is known as a <em>type</em>. </p>
@@ -404,7 +415,7 @@ a = 11
 <p><a href="https://en.wikipedia.org/wiki/Variable_(computer_science)">Variable</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="arithmetic-operations"><a class="header" href="#arithmetic-operations">Arithmetic Operations</a></h1>
 <h2 id="arithmetic-operations-1"><a class="header" href="#arithmetic-operations-1">Arithmetic Operations</a></h2>
-<p>There are a number of operations in mathematics we can use to calculate values using numbers. These are <em>arithmetic</em> operations. The arithimetic operations available to use in Python are listed below:</p>
+<p>There are a number of operations in mathematics we can use to calculate values using numbers. These are <em>arithmetic</em> operations. The arithmetic operations available to use in Python are listed below:</p>
 <div class="table-wrapper"><table><thead><tr><th>Operator</th><th>Description</th><th>Example</th><th>Result Returned</th></tr></thead><tbody>
 <tr><td>+</td><td>Addition</td><td>7+7</td><td>14</td></tr>
 <tr><td>-</td><td>Subtraction</td><td>70-1</td><td>69</td></tr>
@@ -439,7 +450,7 @@ And we can include as many <em>operands</em> as possible. An operand is any obje
 3.75
 </code></pre>
 <h4 id="division-with-truncation"><a class="header" href="#division-with-truncation">Division With Truncation</a></h4>
-<p>Truncation will remove everything after the deciaml point. It is essentially rounding or removing any remainder. For example:</p>
+<p>Truncation will remove everything after the decimal point. It is essentially rounding or removing any remainder. For example:</p>
 <pre><code class="language-Python">&gt;&gt;&gt; 7.5 // 2
 3.0
 </code></pre>
@@ -453,6 +464,37 @@ And we can include as many <em>operands</em> as possible. An operand is any obje
 <pre><code class="language-Python">&gt;&gt;&gt; 3 ** 2
 9
 </code></pre>
+<h2 id="assignment-operators"><a class="header" href="#assignment-operators">Assignment Operators</a></h2>
+<p>Assignment operators are operators that allow us to both conduct an arithmetic operation on a variable and assign the result to the variable with a single operation. In other words, the arithmetic operation and assignment operation are combined into one step.</p>
+<p>The assignment operators found in Python are listed below </p>
+<div class="table-wrapper"><table><thead><tr><th>Operator</th><th>Description</th></tr></thead><tbody>
+<tr><td>=</td><td>Assigns value to variable</td></tr>
+<tr><td>+=</td><td>Adds value and assigns result</td></tr>
+<tr><td>-=</td><td>Subtracts by value and assigns result</td></tr>
+<tr><td>*=</td><td>Multiplies by value and assigns result</td></tr>
+<tr><td>/=</td><td>Divides by value and assigns result</td></tr>
+<tr><td>**=</td><td>Raises by power and assigns result</td></tr>
+<tr><td>%=</td><td>Computes modulus between value and assigns result</td></tr>
+<tr><td>//</td><td>Floor divides by value and assigns result</td></tr>
+</tbody></table>
+</div>
+<p>Not every operator will be given an example for the sake of brevity, but the concept is the same for all. Let's use multiplication for our example. Consider:</p>
+<pre><code class="language-Python">&gt;&gt;&gt; myNumber = 7
+&gt;&gt;&gt; myNumber = myNumber * 7
+&gt;&gt;&gt; myNumber
+49
+</code></pre>
+<p>Here <code>myNumber</code> is assigned to 7. Then it is assigned to itself times 7 which is 49. And when returned it is now assigned to 49. Where it is being assigned to itself times 7 can be combined into a single operation with an assignment operator.</p>
+<pre><code class="language-Python">&gt;&gt;&gt; myNumber = 7
+&gt;&gt;&gt; myNumber *= 7
+&gt;&gt;&gt; myNumber
+49
+</code></pre>
+<p>The result of this code block is the same, however the multiplication and reassignment of <code>myNumber</code> is combined into the <code>*=</code> operator.</p>
+<hr />
+<p>This section described Python's arithmetic operations. To see more examples of these operations in use check the appendix. The next section will cover logical operations.</p>
+<h2 id="further-reading-4"><a class="header" href="#further-reading-4">Further Reading</a></h2>
+<p><a href="https://python-reference.readthedocs.io/en/latest/docs/operators/#arithmetic-operators">Arithmetic Operations</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="logical-operations"><a class="header" href="#logical-operations">Logical Operations</a></h1>
 <h2 id="what-is-logic"><a class="header" href="#what-is-logic">What is Logic?</a></h2>
 <p>Logic is a kind of math that is likely different than what you are familiar with. Logic is used to determine whether something is true or false. And operations in logic
@@ -515,7 +557,7 @@ True
 <p>A data type defines what operations can be used on that type and what <em>methods</em> or <em>dot functions</em> exist for objects of that type. These concepts will be covered more deeply near the end of the book, but for now know that this essentially means that the designers of Python designed functions for every data type to be manipulated. We will focus on the <em>string</em> and the <em>list</em> data types. We will use the built in functionality that Python offers to manipulate these data types.</p>
 <h2 id="dot-function-syntax"><a class="header" href="#dot-function-syntax">Dot Function Syntax</a></h2>
 <p>A <em>dot function</em> is a function that operates on an object of a specific type or <em>class</em>. They are also referred to as <em>methods</em>. The syntax of calling a dot function is appending a dot to the end of an
-object followed by the fucntion name and a parenthetical:</p>
+object followed by the function name and a parenthetical:</p>
 <pre><code class="language-Python">object.functionName()
 </code></pre>
 <p>The function takes the object as an input, and outputs something based on the input and the function's definition. Remember that the function must be for the data type of the object. Again, we will be using methods that are built into Python by its developers for use on its data types.</p>
@@ -523,6 +565,66 @@ object followed by the fucntion name and a parenthetical:</p>
 <h3 id="concatenation"><a class="header" href="#concatenation">Concatenation</a></h3>
 <p>The <code>+</code> operator not only works for numbers but also strings. When two strings are &quot;added&quot;, the string on the right will be appended to the one on the left. This is known as <em>concatenation</em>.</p>
 <p>For example:</p>
+<pre><code class="language-Python">&gt;&gt;&gt; x = &quot;hello&quot;
+&gt;&gt;&gt; y = &quot; world! &quot;
+&gt;&gt;&gt; x+y
+'hello world! '
+</code></pre>
+<p>Here the string <code>y</code> is appended to the string <code>x</code>.</p>
+<h3 id="capitalization"><a class="header" href="#capitalization">Capitalization</a></h3>
+<p>Now say I need to capitalize every word of this sentence. We can use the <code>.title()</code> function to accomplish this.</p>
+<pre><code class="language-Python">&gt;&gt;&gt; x = &quot;hello&quot;
+&gt;&gt;&gt; y = &quot; world! &quot;
+&gt;&gt;&gt; (x+y).title()
+'Hello World! '
+</code></pre>
+<h3 id="strip-whitespace"><a class="header" href="#strip-whitespace">Strip Whitespace</a></h3>
+<p>Now say I want to remove the <em>whitespace</em> I left at the end of the string. Whitespace is any space that isn't text such as a <code>Space</code> or <code>Tab</code>. The <code>.strip()</code> function does this.</p>
+<pre><code class="language-Python">&gt;&gt;&gt; x = &quot;hello&quot;
+&gt;&gt;&gt; y = &quot; world! &quot;
+&gt;&gt;&gt; (x+y).title().strip()
+'Hello World!'
+</code></pre>
+<p>Note that dot functions can be listed one after the other. They work in order from outside in. In other words, from right to left.</p>
+<pre><code class="language-Python">&gt;&gt;&gt; x = &quot;hello&quot;
+&gt;&gt;&gt; y = &quot; world! &quot;
+&gt;&gt;&gt; z = x + y
+&gt;&gt;&gt; z = z.strip()
+&gt;&gt;&gt; z = z.title()
+&gt;&gt;&gt; z
+'Hello World!'
+</code></pre>
+<p>Here the same is accomplished by assigning <code>x+y</code> to <code>z</code> and using the functions on z one at a time. The main difference between these two ways is that some would say one is more readable by a human than the other. Depending on the context this may be true.</p>
+<h2 id="lists"><a class="header" href="#lists">Lists</a></h2>
+<p>Python contains numerous built in methods for manipulating lists.
+Say I have a list of numbers 1 - 10:</p>
+<pre><code class="language-Python">&gt;&gt;&gt; myList = [1,2,3,4,5,6,7,8,9,10]
+</code></pre>
+<h3 id="append"><a class="header" href="#append">Append</a></h3>
+<p>The <code>.append()</code> method will add a new object to the end of a list. I will continue the pattern and add <code>11</code>.</p>
+<pre><code class="language-Python">&gt;&gt;&gt; myList = [1,2,3,4,5,6,7,8,9,10]
+&gt;&gt;&gt; myList.append(11)
+&gt;&gt;&gt; myList
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+</code></pre>
+<h3 id="pop"><a class="header" href="#pop">Pop</a></h3>
+<p>The <code>.pop</code> method will remove or &quot;pop&quot; the first last object out of the list. </p>
+<pre><code class="language-Python">&gt;&gt;&gt; myList.pop()
+11
+&gt;&gt;&gt; myList
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+</code></pre>
+<h3 id="reverse"><a class="header" href="#reverse">Reverse</a></h3>
+<p>The <code>.reverse()</code> method reverses the order of all elements in a list. </p>
+<pre><code class="language-Python">&gt;&gt;&gt; myList.reverse()
+&gt;&gt;&gt; myList
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+</code></pre>
+<hr />
+<p>This section is just a small taste of the different built-in methods Python has to offer. Every data type has a number of methods available for use. The list of methods used and discussed in this book is by no means exhaustive. Refer to the Python documentation for more information. Links to some of the documentation are below. </p>
+<h2 id="further-reading-5"><a class="header" href="#further-reading-5">Further Reading</a></h2>
+<p><a href="https://docs.python.org/3/tutorial/datastructures.html">Python Docs on List Methods</a></p>
+<p><a href="https://docs.python.org/3/library/stdtypes.html#string-methods">Python Docs on String Methods</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="type-conversion"><a class="header" href="#type-conversion">Type Conversion</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="commenting"><a class="header" href="#commenting">Commenting</a></h1>
 <h2 id="what-is-a-comment"><a class="header" href="#what-is-a-comment">What Is A Comment?</a></h2>
