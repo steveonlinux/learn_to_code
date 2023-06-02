@@ -2,16 +2,16 @@
 
 Python gives us the ability to convert some data from one type to another, depending on the types. This is known as *type casting*. 
 
-This is can especially useful when getting user input. Recall, `input()` which allows us to obtain input from a user. Say we want to get two numbers from the user to be multiplied together.
-```Python
+This is can especially useful when getiing user input. Recall, `input()` which allows us to obtain input from a user. Say we want to get two numbers from the user to be multiplied together.
+``Python
 x = input("Enter First Number:")
 y = input ("Enter Second Number:")
 z = x * y
 print(z)
 ```
-If you run this code and provide numbers you will recieve an error. This is becuase the numbers provided are *strings*. `input()` returns strings and strings can't be multiplied. What `input()` returns must be *casted* to an integer. The function `int()` does this.
+If you run this code and provide numbers you wil lrecieve an error. This is becuase the numbers provided are 8strings*. `input()` returns strings and strings can't be multiplied. What `input()` returns must be *casted* to an integer. The function `int()` does this.
 
-```Python
+``Python
 x = input("Enter First Number:")
 y = input ("Enter Second Number:")
 z = int(x) * int(y)
@@ -21,9 +21,9 @@ print(z)
 The code now works! `x` and `y` are each casted to ints before they are multiplied so there is now no error.
 
 ## Nesting 
-This code can be made a little cleaner if we know that functions can be nested. Nested means "inside one another. Essentially functions, and other structures in most programming languages can be nested. When functions are nested, they run from the inside out. In other words, when nested the innermost function will execute first, then the one directly above it, and so forth. 
+This code can be made a little cleaner if we know that functions can be nested. Nested means "inside one another. Essentially functions, and other structures in most programming languages can be nested. When functions are nested, theyrun from the inside out. In other words, when nested the innermost function will execute first, then the one directly above it, and so forth. 
 
-```Python
+``Python
 x = int(input("Enter First Number:"))
 y = int(input ("Enter Second Number:"))
 z = x * y
@@ -31,14 +31,14 @@ print(z)
 ```
 This code has the same functionality, however it nests the calls to the `input()` function with the `int()` function.This could be further compacted by not assigning what int returns to variables.
 
-```Python
+``Python
 z = int(input("Enter First Number:")) * int(input("Enter Second Number:"))
 print(z)
 ```
 This code has the same effect has the other two examples, except here less variables are used. These are examples of *style*. Recall that styles is subjective and whether one stylistic decisions is better than another is up to preference. However, the ulimate goal is to balance: efficiency, readability, and elegance.
 
 ## Implicit Type Casting
-The casting thus far has been *explicit*. As in, we called a function that casted an object to a data type we needed.However, the interpreter often casts types itself without any intervention. This is known as *implicit* casting. For example, implicit casting occurs when doing arithmetic with object with differing types.
+The casting thus far has been *explicit*. As in, we called a function that casted an object to a data type we needed.However, the interpreter often casts types itself without any intervention. This is known as *implicit* casting. For example, implicit casting occurs when doing arithmetic with objext with differing types.
 
 ```Python
 >>> x = 7.7

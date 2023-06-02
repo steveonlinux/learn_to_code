@@ -142,6 +142,45 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="type-conversion"><a class="header" href="#type-conversion">Type Conversion</a></h1>
+<p>Python gives us the ability to convert some data from one type to another, depending on the types. This is known as <em>type casting</em>. </p>
+<p>This is can especially useful when getting user input. Recall, <code>input()</code> which allows us to obtain input from a user. Say we want to get two numbers from the user to be multiplied together.</p>
+<pre><code class="language-Python">x = input(&quot;Enter First Number:&quot;)
+y = input (&quot;Enter Second Number:&quot;)
+z = x * y
+print(z)
+</code></pre>
+<p>If you run this code and provide numbers you will recieve an error. This is becuase the numbers provided are <em>strings</em>. <code>input()</code> returns strings and strings can't be multiplied. What <code>input()</code> returns must be <em>casted</em> to an integer. The function <code>int()</code> does this.</p>
+<pre><code class="language-Python">x = input(&quot;Enter First Number:&quot;)
+y = input (&quot;Enter Second Number:&quot;)
+z = int(x) * int(y)
+print(z)
+</code></pre>
+<p>The code now works! <code>x</code> and <code>y</code> are each casted to ints before they are multiplied so there is now no error.</p>
+<h2 id="nesting"><a class="header" href="#nesting">Nesting</a></h2>
+<p>This code can be made a little cleaner if we know that functions can be nested. Nested means &quot;inside one another. Essentially functions, and other structures in most programming languages can be nested. When functions are nested, they run from the inside out. In other words, when nested the innermost function will execute first, then the one directly above it, and so forth. </p>
+<pre><code class="language-Python">x = int(input(&quot;Enter First Number:&quot;))
+y = int(input (&quot;Enter Second Number:&quot;))
+z = x * y
+print(z)
+</code></pre>
+<p>This code has the same functionality, however it nests the calls to the <code>input()</code> function with the <code>int()</code> function.This could be further compacted by not assigning what int returns to variables.</p>
+<pre><code class="language-Python">z = int(input(&quot;Enter First Number:&quot;)) * int(input(&quot;Enter Second Number:&quot;))
+print(z)
+</code></pre>
+<p>This code has the same effect has the other two examples, except here less variables are used. These are examples of <em>style</em>. Recall that styles is subjective and whether one stylistic decisions is better than another is up to preference. However, the ulimate goal is to balance: efficiency, readability, and elegance.</p>
+<h2 id="implicit-type-casting"><a class="header" href="#implicit-type-casting">Implicit Type Casting</a></h2>
+<p>The casting thus far has been <em>explicit</em>. As in, we called a function that casted an object to a data type we needed.However, the interpreter often casts types itself without any intervention. This is known as <em>implicit</em> casting. For example, implicit casting occurs when doing arithmetic with object with differing types.</p>
+<pre><code class="language-Python">&gt;&gt;&gt; x = 7.7
+&gt;&gt;&gt; y = 7
+&gt;&gt;&gt; type(x)
+&lt;class 'float'&gt;
+&gt;&gt;&gt; type(7)
+&lt;class 'int'&gt;
+&gt;&gt;&gt; z = x+y
+&gt;&gt;&gt; type(z)
+&lt;class 'float'&gt;
+</code></pre>
+<p>Here it is demonstrated that adding a float and an int results in the interpreter casting the result to a float.</p>
 
                     </main>
 
