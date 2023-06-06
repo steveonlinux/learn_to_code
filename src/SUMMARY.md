@@ -1,6 +1,5 @@
 # Summary
 
-[Table of Contents](./table.md)
 [Introduction](./introduction.md)
 - [Getting Started Programming](./started/README.md)
 	- [What Is Programming?](./started/what.md)
