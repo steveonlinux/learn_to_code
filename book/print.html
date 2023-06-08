@@ -9,6 +9,7 @@
 
         <!-- Custom HTML head -->
         
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -30,17 +31,19 @@
         <link rel="stylesheet" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="./theme/catppuccin.css">
+        <link rel="stylesheet" href="./theme/catppuccin-highlight.css">
 
     </head>
     <body>
         <!-- Provide site root to javascript -->
-        <script>
+        <script type="text/javascript">
             var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script>
+        <script type="text/javascript">
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -56,7 +59,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script>
+        <script type="text/javascript">
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -68,7 +71,7 @@
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script>
+        <script type="text/javascript">
             var html = document.querySelector('html');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
@@ -99,11 +102,15 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
                         </ul>
                         <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
                             <i class="fa fa-search"></i>
@@ -132,7 +139,7 @@
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script>
+                <script type="text/javascript">
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -296,6 +303,28 @@ is a text editor that has been personalized by the user for their own, specific 
 <p><a href="https://en.wikipedia.org/wiki/Integrated_development_environment">Integrated Development Environment</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="installing-python"><a class="header" href="#installing-python">Installing Python</a></h1>
 <h2 id="windows"><a class="header" href="#windows">Windows</a></h2>
+<p>The Python interpreter can be downloaded for Windows from the Python's official website.</p>
+<p><img src="started/./imgs/python_downloads.png" alt="python Site" />
+<a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></p>
+<p>Once the installer is downloaded,  go to the directory it was downloaded to and execute it. </p>
+<p><img src="started/./imgs/python_file.png" alt="python file" /><br />
+<em>The Python installer I downloaded to my computer.</em></p>
+<p>Once the installer is launched you will be greeted by this screen:
+<img src="started/./imgs/python_installer.png" alt="python installer" /></p>
+<p>There are two options when installing.</p>
+<h3 id="admin-privileges"><a class="header" href="#admin-privileges">Admin Privileges</a></h3>
+<p>This option should be enabled assuming you are using your personal computer. Admin privileges in Windows generally allow you to install programs and alter specific files. Installing the Python interpreter with admin privileges will allow your scripts you write and run to have greater access to your computer, however this must be done responsibly; or else you may damage your operating system.</p>
+<h3 id="path-variable"><a class="header" href="#path-variable">Path Variable</a></h3>
+<p>This option should be enabled. A path variable is a variable that contains every directory that your user can execute files from no matter what directory the user is currently in. Essentially, when this option is checked, the directory python is installed to will be added to your path variable, so you can execute the interpreter from anywhere.</p>
+<p>There are some things installed alongside the interpreter by default like <em>pip</em>. Pip is a Python <em>package manager</em>. It will be discussed at the end of the book in the &quot;And More...&quot; section.</p>
+<p>Once the interpreter is installed you will be greeted with a success screen.</p>
+<p><img src="started/./imgs/python_success.png" alt="python success" /></p>
+<h2 id="linux"><a class="header" href="#linux">Linux</a></h2>
+<p>On the vast majority of Linux distributions, Python is already installed by default.</p>
+<hr />
+<h2 id="further-reading-2"><a class="header" href="#further-reading-2">Further Reading</a></h2>
+<p><a href="https://python.org/downloads/">Python Download Page</a></p>
+<p><a href="https://docs.python.org/3/using/windows.html">Python docs on Windows Python installation</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="executing-python-code"><a class="header" href="#executing-python-code">Executing Python Code</a></h1>
 <p>There are two ways Python code can be ran or <em>executed</em>. </p>
 <h2 id="script-mode"><a class="header" href="#script-mode">Script Mode</a></h2>
@@ -344,7 +373,7 @@ is a text editor that has been personalized by the user for their own, specific 
 <p>Python is known as an <em>object oriented</em> language. Keep in mind that not all programming languages utilize objects. In some languages, the programmer must keep track of the location of data, and what type that data is themselves. Due to the object paradigm, Python is a <em>strongly typed language</em>. In strongly typed languages, the data type of an object doesn't change implicitly. Essentially, data objects are like a box that exists somewhere in the computer's memory. This box contains the data itself, and everything the computer needs to know what that data means and to use that data. In the next section, we'll cover variables, which are used to give names to different objects.</p>
 <hr />
 <p>Knowing the different data types a programming language offers allows you to know what ways the language allows you to represent and store information. Since many of the data types Python offers are unique to Python, such as Dictionaries, Sets, and Tuples, we will focus on types that can be found in programming languages more generally. Throughout the book we will focus on the numerical data types, strings, lists, and booleans extensively. In the next sections, we will learn how to name objects of any type using <em>variables</em>.</p>
-<h2 id="further-reading-2"><a class="header" href="#further-reading-2">Further Reading</a></h2>
+<h2 id="further-reading-3"><a class="header" href="#further-reading-3">Further Reading</a></h2>
 <p><a href="https://en.wikipedia.org/wiki/Data_type">Data Types</a></p>
 <p><a href="https://docs.python.org/3/library/stdtypes.html">Python Built-in Types</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="variables"><a class="header" href="#variables">Variables</a></h1>
@@ -420,7 +449,7 @@ a = 11
 <p>A common variable naming convention used is called <em>camelCase</em>. camelCase separates multiple words in a name by capitalizing the last word of the variable name. Another common convention is <em>snake_case</em>. Where the words in the name are separated by underscores. snake_case is commonly used in Python and is what will be used in this book.</p>
 <hr />
 <p>This section introduced variables, which in Python, are names or references to objects. In the next sections operations that can be used on variables, and thus objects, will be introduced.</p>
-<h2 id="further-reading-3"><a class="header" href="#further-reading-3">Further Reading</a></h2>
+<h2 id="further-reading-4"><a class="header" href="#further-reading-4">Further Reading</a></h2>
 <p><a href="https://en.wikipedia.org/wiki/Variable_(computer_science)">Variable</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="arithmetic-operations"><a class="header" href="#arithmetic-operations">Arithmetic Operations</a></h1>
 <h2 id="arithmetic-operations-1"><a class="header" href="#arithmetic-operations-1">Arithmetic Operations</a></h2>
@@ -502,7 +531,7 @@ And we can include as many <em>operands</em> as possible. An operand is any obje
 <p>The result of this code block is the same, however the multiplication and reassignment of <code>myNumber</code> is combined into the <code>*=</code> operator.</p>
 <hr />
 <p>This section described Python's arithmetic operations. To see more examples of these operations in use check the appendix. The next section will cover logical operations.</p>
-<h2 id="further-reading-4"><a class="header" href="#further-reading-4">Further Reading</a></h2>
+<h2 id="further-reading-5"><a class="header" href="#further-reading-5">Further Reading</a></h2>
 <p><a href="https://python-reference.readthedocs.io/en/latest/docs/operators/#arithmetic-operators">Arithmetic Operations</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="logical-operations"><a class="header" href="#logical-operations">Logical Operations</a></h1>
 <h2 id="what-is-logic"><a class="header" href="#what-is-logic">What is Logic?</a></h2>
@@ -631,7 +660,7 @@ Say I have a list of numbers 1 - 10:</p>
 </code></pre>
 <hr />
 <p>This section is just a small taste of the different built-in methods Python has to offer. Every data type has a number of methods available for use. The list of methods used and discussed in this book is by no means exhaustive. Refer to the Python documentation for more information. Links to some of the documentation are below. </p>
-<h2 id="further-reading-5"><a class="header" href="#further-reading-5">Further Reading</a></h2>
+<h2 id="further-reading-6"><a class="header" href="#further-reading-6">Further Reading</a></h2>
 <p><a href="https://docs.python.org/3/tutorial/datastructures.html">Python Docs on List Methods</a></p>
 <p><a href="https://docs.python.org/3/library/stdtypes.html#string-methods">Python Docs on String Methods</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="type-conversion"><a class="header" href="#type-conversion">Type Conversion</a></h1>
@@ -810,14 +839,14 @@ if ( x == &quot;Hello&quot; and y == &quot; World!&quot;):
     print(x+y)
 </code></pre>
 <hr />
-<h2 id="further-reading-6"><a class="header" href="#further-reading-6">Further Reading</a></h2>
+<h2 id="further-reading-7"><a class="header" href="#further-reading-7">Further Reading</a></h2>
 <p><a href="https://en.wikipedia.org/wiki/Control_flow">Control Flow</a></p>
 <p><a href="https://docs.python.org/3/tutorial/controlflow.html">Python Docs on Control Flow</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="loops"><a class="header" href="#loops">Loops</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="while-and-do-while-loops"><a class="header" href="#while-and-do-while-loops">While and Do-While Loops</a></h1>
-<p>The other, if not the most, fundamental structure in programming are <em>loops</em>. A loop checks a condition and executes the body, then rechecks and executes the body, until the condition is false. Each time the loop executes the body is call an <em>iteration</em>. The loop will <em>iterate</em> until the condtiion is false.</p>
+<p>The other, if not the most, fundamental structure in programming are <em>loops</em>. A loop checks a condition and executes the body, then rechecks and executes the body, until the condition is false. Each time the loop executes the body is call an <em>iteration</em>. The loop will <em>iterate</em> until the condition is false.</p>
 <h2 id="while-loops"><a class="header" href="#while-loops">While Loops</a></h2>
-<p><em>While</em> loops are the simplest form of loops. Per the name, <em>while</em> loops iterate while their condtitions are true and until they are false. Once the condition is false, the loop <em>exits</em> and moves on to the next code.
+<p><em>While</em> loops are the simplest form of loops. Per the name, <em>while</em> loops iterate while their conditions are true and until they are false. Once the condition is false, the loop <em>exits</em> and moves on to the next code.
 <img src="loops/./imgs/loops.drawio.png" alt="while" />
 <em>The flow of a while loop</em></p>
 <p>For example:</p>
@@ -825,6 +854,41 @@ if ( x == &quot;Hello&quot; and y == &quot; World!&quot;):
 	print(&quot;true&quot;)
 </code></pre>
 <p>This code is an infinite loop. It will iterate and print <code>&quot;true</code> forever, since the condition is never false. Not very useful. Let's try a <em>while</em> loop with a changing condition.</p>
+<p>Loops are necessary for developing a process that require doing the same action multiple times. Like printing. Say I want to print every number from 0 to 1. I can do this with a while loop.</p>
+<pre><code class="language-Python">n = 0
+while(n &lt;= 10):
+    print(n)
+    n += 1
+</code></pre>
+<p>This script:</p>
+<ol>
+<li>Assigns n to the integer 0.</li>
+<li>Begins a loop that will execute until n is 10.</li>
+<li>Prints n.</li>
+<li>Increments n by 1.</li>
+<li>Repeats until n is 10.</li>
+</ol>
+<p>Let's try another example:
+Say I want to write a program that prints every multiple of 2 from 2 to 20. We can do this with a while loop.</p>
+<pre><code class="language-Python">n = 2
+f = 1
+while(n * f &lt;= 20):
+    print(n * f)
+    f += 1
+</code></pre>
+<p>Another way to accomplish this to to simply check if a number is even, since all multiples of 2 are by definition even. This code takes advantage of the <em>modulo</em> operator and an *if * statement.</p>
+<pre><code class="language-Python">n = 1
+while(n &lt;= 20):
+    if ( n % 2 == 0 ):
+        print(n)
+    n += 1
+</code></pre>
+<p>This code checks every number form 1 to 20. If the number is divisible by 2 it prints, if not nothing happens and the next number is checked.</p>
+<p>The next section will cover the more widely applicable and succinct looping structure, the <em>for loop</em>.</p>
+<hr />
+<h2 id="further-reading-8"><a class="header" href="#further-reading-8">Further Reading</a></h2>
+<p><a href="https://en.wikipedia.org/wiki/While_loop">While Loops</a></p>
+<p><a href="https://docs.python.org/3/reference/compound_stmts.html#while">Python Docs on while</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="for-loops"><a class="header" href="#for-loops">For Loops</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="exiting-loops"><a class="header" href="#exiting-loops">Exiting Loops</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="functions"><a class="header" href="#functions">Functions</a></h1>
@@ -859,7 +923,7 @@ if ( x == &quot;Hello&quot; and y == &quot; World!&quot;):
         </div>
 
         <!-- Livereload script (if served using the cli tool) -->
-        <script>
+        <script type="text/javascript">
             const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
             const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
             const socket = new WebSocket(wsAddress);
@@ -877,22 +941,22 @@ if ( x == &quot;Hello&quot; and y == &quot; World!&quot;):
 
 
 
-        <script>
+        <script type="text/javascript">
             window.playground_copyable = true;
         </script>
 
 
-        <script src="elasticlunr.min.js"></script>
-        <script src="mark.min.js"></script>
-        <script src="searcher.js"></script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
 
-        <script src="clipboard.min.js"></script>
-        <script src="highlight.js"></script>
-        <script src="book.js"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
 
-        <script>
+        <script type="text/javascript">
         window.addEventListener('load', function() {
             window.setTimeout(window.print, 100);
         });
