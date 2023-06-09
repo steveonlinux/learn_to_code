@@ -16,3 +16,9 @@ Here, the `print()` function accepts a single parameter, a string to be printed.
 
 ## input()
 Another commonly used function is `input()`. This function also takes a single parameter: the string to be displayed to the user prompting the user to input data.
+
+--- 
+
+## Further Reading
+
+[Python Built-in Functions](https://docs.python.org/3/library/functions.html)
