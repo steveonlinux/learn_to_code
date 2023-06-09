@@ -78,4 +78,8 @@ True
 
 *A NOT truth table*
 
+---
 
+## Further Reading
+
+[Logic in Computer Science](https://en.wikipedia.org/wiki/Logic_in_computer_science)
