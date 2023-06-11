@@ -44,6 +44,7 @@
 - [Arithmetic Operations](./ex/arithmetic.md)
 - [Logical Operations](./ex/logic.md)
 - [Type Conversion](./ex/cast.md)
+- [Dot Functions](./ex/dot.md)
 - [Style](./ex/style.md)
 
 # Projects
