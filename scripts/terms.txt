@@ -1,0 +1,60 @@
+Paradigm,Forms of a programming language that indicate how it is written in and how the source is executed by the system.
+Declarative,Programming paradigm where the state of the system is defined or declared. Such as a markup or templating language.
+Imperative,Paradigm where instructions are given to a system for execution.
+Compiler,A program that converts source code of a compiled language to a binary file. *Compiler;Compilation
+Interpreter,A program that executed the source code of an interpreted language. *Interpreted;Interpretation
+Portability,The aspect of a language that defines how easily its programs can be ran on a wide variety of systems.
+Command Line Interface (cli),A textual method of interacting with a computer system opposed to a graphical environment.
+Prompt,A symbol or group of systems denoting the current line in a command line interface.
+Terminal,A program that displays a command line interface. *Terminal Emulator
+Executable File,A binary file that can be ran as a program on a computer often ending in .exe.
+Binary,Code or number system containing only 0s and 1s; What a computer fundamentally understands.
+Bit,An entity with only two possible states represented by 0 and 1.
+Integrated Development Environment,A program used to edit source code, and compile or interpret source code. Usually feature rich.
+Text Editor,A program used to edit source code.
+Shell,A program that offers an environment in which to interact with the system. Usually referring to a shell on the command line.
+Command,A word that executes a program.
+Option,A setting usable at the command line. *Switch
+Syntax,The rules dictating how a language expresses meaning.
+Style,The ways a language can express meaning based on the preferences of the author.
+Data Type,A data organization that defines the meaning of the data.
+Object,A concept defining an entity of a some data type and its existence. Data type; location; times used; etc. 
+Variable,A name used to label data.
+Pointer,A kind of variable which refers or points to an object. Variables in Python are pointers by default. *Reference
+Keyword,A word in a programming language that is protected for a certain used and not allowed for use as a variable name.
+Truth Table,A table expressing the inputs and outputs of logical operations.
+Logical Operation,An operation that accepts and returns truth values.
+Arithmetic Operation,An operation that accepts and returns numerical values.
+Boolean,A data type that has only two possible values: true or false.
+Function,Code that is encapsulated. May accept inputs or return outputs.
+Parameter,The input of a function.
+Definition,The code that determines the actions of a function.
+Body,The code block following a conditional or function declaration.
+Statement,Code that expresses an action to be carried out.
+Method,A function of a class to accept an object of said class as input. *Dot Function
+Built-In,A function or data type defined by the authors of a programming language.
+Casting,Converting one data type to another. *Cast; Casted
+Assignment,Giving a name to an object by which the object can be referenced.
+Nesting,Containing code blocks such as functions or conditionals within one another.
+Comment,A line of code that is skipped by the interpreter. For human readability.
+Comparison Operation,An operation that performs a test and accepts numerical values and returns truth values.
+Operator,A symbol denoting an operation on one or between multiple objects or entities.
+if,A keyword beginning a conditional if statement.
+else,A keyword beginning a conditional else statement.
+Conditional statement,A statement which evaluates the truth value of a case.
+loop,A code block that executes until a condition is not met.
+Recursion,The act of a code block calling itself.
+Module,Source code that can be reference and used by other source code.
+import,Keyword that brings into scope other source code.
+Source Code,The expression of a programming language as a text file before compilation or interpretation.
+Path,A location within a file system.
+Data,Information. Usually ultimately stored in the form of binary data.
+Algorithm,The definition of a process or instructions to be carried to to complete a task.
+Instantiation,The creation of a variable.
+Calling,To execute a function. *Call;Called
+By Value,To provide only the value of an object to a function, not the object itself.
+By Reference,To provide an object itself to a function.
+Scope,Data other code is aware of. *Scoping
+Instantiation,The creation if an object; the bringing of an object into existence.
+Shorthand,The combination of multiple operators or processes and their functionalities into a single operator or symbol.
+
