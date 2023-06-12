@@ -1,6 +1,5 @@
 | Term | Description |
 | ------ | ------ |
-|  |  |
 | Algorithm | The definition of a process or instructions to be carried to to complete a task. |
 | Arithmetic Operation | An operation that accepts and returns numerical values. |
 | Assignment | Giving a name to an object by which the object can be referenced. |
@@ -29,7 +28,8 @@
 | if | A keyword beginning a conditional if statement. |
 | Imperative | Paradigm where instructions are given to a system for execution. |
 | import | Keyword that brings into scope other source code. |
-| Instantiation | The creation of an object; the bringing of an object into existence. |
+| Instantiation | The creation if an object; the bringing of an object into existence. |
+| Instantiation | The creation of a variable. |
 | Integrated Development Environment | A program used to edit source code |
 | Interpreter | A program that executed the source code of an interpreted language. *Interpreted;Interpretation |
 | Keyword | A word in a programming language that is protected for a certain used and not allowed for use as a variable name. |
@@ -46,6 +46,7 @@
 | Path | A location within a file system. |
 | Pointer | A kind of variable which refers or points to an object. Variables in Python are pointers by default. *Reference |
 | Portability | The aspect of a language that defines how easily its programs can be ran on a wide variety of systems. |
+| Precedence | The order of operations in a programming language. Higher precedence is executed before lower precedence. |
 | Prompt | A symbol or group of systems denoting the current line in a command line interface. |
 | Recursion | The act of a code block calling itself. |
 | Scope | Data other code is aware of. *Scoping |

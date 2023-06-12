@@ -1,0 +1,3 @@
+# Precedence
+
+You may be familiar with the *order of operations* in mathematics; sometimes referred to as *PEMDAS*. This is a system that describes the *precedence* of operations in math. Programming languages have a similar convention. Without grouping symbols such as parentheses, operations will be conducted in their order of precedence. An operation with a higher precedence will be conducted before an operation of lower precedence if their precedence is not overrided by grouping symbols.

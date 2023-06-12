@@ -57,4 +57,4 @@ By Reference,To provide an object itself to a function.
 Scope,Data other code is aware of. *Scoping
 Instantiation,The creation if an object; the bringing of an object into existence.
 Shorthand,The combination of multiple operators or processes and their functionalities into a single operator or symbol.
-
+Precedence,The order of operations in a programming language. Higher precedence is executed before lower precedence.

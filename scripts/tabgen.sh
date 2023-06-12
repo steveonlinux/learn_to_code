@@ -30,4 +30,4 @@ EOF
 markdown_table="$table_header$table_rows"
 
 # Print the markdown table
-printf "%s\n" "$markdown_table" > tab.md
+printf "%s\n" "$markdown_table" > ../src/glossary/terms.md
