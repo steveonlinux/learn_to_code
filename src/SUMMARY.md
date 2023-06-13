@@ -36,8 +36,14 @@
 	- [Class Functions or Methods](./oop/meth.md)
 	- [Defining and Using Classes](./oop/class.md)
 	- [Creating Modules](./oop/mod.md)
+- [And More...]()
+    - [pip](./more/pip.md)
+    - [Escape Sequences](./more/esc.md)
 # Glossary
 - [Terms](./glossary/terms.md)
+- [Command Line Guide](./glossary/cli_guide.md)
+# Appendix
+- [References](./appendix/ref.md)
 # Examples
 - [Output and User Input](./ex/out.md)
 - [Data Types](./ex/types.md)
