@@ -17,3 +17,9 @@ Common Escape Sequences are:
 | \'              | Escape Single Quote                           |
 | \"              | Escape Double Quote                           |
 | \\              | Escape Backslash                              |
+
+---
+## Further Reading
+[Escape Characters](https://en.wikipedia.org/wiki/Escape_sequence)
+
+[Escape Sequences](https://en.wikipedia.org/wiki/Escape_character)
