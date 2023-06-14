@@ -1,0 +1,35 @@
+# Practice Questions
+This is a list of practice assignments. These assigments can be completed using the knowledge from this book, Python standard modules, and built in functions. These assignments are organized by difficulty level.
+
+## Easy
+### Calculator 
+Write a program that asks the user for two numbers and an operator (+, -, *, /). The program should perform the corresponding calculation and display the result.
+### Even or Odd
+Write a program that asks the user for a number and determines whether it is even or odd.
+### Leap Year Checker
+Write a program that asks the user for a year and determines whether it is a leap year or not.
+### Positive Numbers In a List
+Write a program that takes a list of numbers as input and prints only the positive numbers.
+### Reverse a String
+Write a program that asks the user for a string and prints the reverse of that string.
+### Mad Libs
+Write a program that asks the user for various words (e.g., noun, adjective, verb) and then generates a story by replacing placeholders in a template with the user's input.
+### Hangman
+Write a program that plays the Hangman game. The program should choose a random word from a list, and the user has to guess letters until they guess the whole word or run out of attempts.
+### Number Guessing Game
+Write a program that generates a random number between 1 and 100 and asks the user to guess it. The program should provide hints (higher/lower) after each incorrect guess and keep track of the number of attempts.
+### Random Password Generator
+Write a program that generates a random password for the user. The program should ask the user for the desired length of the password and include a combination of uppercase letters, lowercase letters, numbers, and special characters.
+
+## Intermediate
+### Palindorme Checker
+Write a program that asks the user for a word and determines whether it is a palindrome (reads the same forwards and backwards).
+### Prime Numbers in Range
+Write a program that asks the user for a range of numbers and prints all the prime numbers within that range.
+### Word Count
+Write a program that reads a text file and counts the occurrences of each word. The program should display the word count for each unique word.
+
+## Difficult
+### Fibonacci Sequence
+Write a program that generates the Fibonacci sequence up to a specified number of terms. The program should ask the user for the number of terms and display the sequence.
+

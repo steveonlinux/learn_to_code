@@ -20,6 +20,6 @@ Common Escape Sequences are:
 
 ---
 ## Further Reading
-[Escape Characters](https://en.wikipedia.org/wiki/Escape_sequence)
+[Escape Characters](https://en.wikipedia.org/wiki/Escape_character)
 
-[Escape Sequences](https://en.wikipedia.org/wiki/Escape_character)
+[Escape Sequences](https://en.wikipedia.org/wiki/Escape_sequence)

@@ -22,6 +22,7 @@
 	- [Comparison Operators](./conditional/operators.md)
 	- [if Statements](./conditional/if.md)
 	- [else Statements](./conditional/else.md)
+	- [Switches](./conditional/switches.md)
 - [Loops]()
 	- [While](./loops/while.md)
 	- [For Loops](./loops/for.md)
@@ -43,6 +44,7 @@
 - [Terms](./glossary/terms.md)
 - [Command Line Guide](./glossary/cli_guide.md)
 # Appendix
+- [Practice Questions](./appendix/practice.md)
 - [References](./appendix/ref.md)
 # Examples
 - [Output and User Input](./ex/out.md)
