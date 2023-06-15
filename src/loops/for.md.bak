@@ -63,12 +63,12 @@ This loop checks every element in `pets` and if if is `"pigs"` a special sentenc
 To understand nested loops we first must understand the kinds of structures they are intended to iterate over.
 
 
-Consider that the visualization of a list is a straight line. One index after the other. What if we had a list of lists? The visualization would resemble something like a checkerboard or grid.
+Consider that the visualization of a list is a straight line. One index after the other. What if we had a list of lists? The visualization would resemble soemthing like a checkerboard or grid.
 
 ![array_2d](./imgs/array_2d.drawio.png)
 *A visualization of a two dimensional list*
 
-Every element of the our original list is now within a row. And every element of the row has a column associated with it. This is known as a *two dimensional list* where our original list was a *one dimensional list*. Being a two dimension list mean that every iteration of a a element of the row involves iterating over every element within the column for that position in the row. And to do this we must use a nested for loop.
+Every element of the our original list is now within a row. And every element of the row has a column associated with it. This is known as a *two dimensional list* where our orignal list was a *one dimensional list*. Being a two dimension list mean that every iteration of a a element of the row involves iterating over every element within the column for that position in the row. And to do this we must use a nested for loop.
 
 ```Python
 food = [["eggs","biscuit","grits","bacon","jam"],["pizza","sandwhich","salad"],["steak","asparagus","toast"]]
@@ -77,7 +77,7 @@ for meal in food:
         if item == "asparagus":
             print("I love asparagus!")
 ```
-This code iterates over the list of lists `food` by iterating over and assigning every list within to `meal`. Then `meal` is iterated over assigning every element in `meal` to `item` before `meal` is reassigned to the nest list. This accomplishes checking every element within every list for `"asparagus"`.
+This code iterates over the list of lists `food` by iterating over and assigning every list within to `meal`. Then `meal` is iterated over assigning every element in `meal` to `item` before `meal` is reassigned to the nest list. This acchomplishes checking every element within every list for `"asparagus"`.
 
 This concept can be extended to any number of dimensions. In other words, any number of lists within lists. And for every dimension another nested loop will be added.
 
@@ -85,7 +85,7 @@ This concept can be extended to any number of dimensions. In other words, any nu
 
 *Visualization of a three dimensional list.*
 
-For example, a three dimensional list would be a list within lists within lists. And so forth. **However**, anything beyond 3 dimension is seldom used, and even three is usually reserved for programming involving more advanced physics and math. Furthermore, Python is generally not suited for nested looping has it is too computationally intensive for interpreted languages.
+For example, a three dimensional list would be a list within lists within lists. And so forth. **However**, anything beyond 3 dimension is seldom used, and even three is usally reserved for programming involving more advanced physics and math. Furthermore, Python is generally not suited for nested looping has it is too computationally intensive for interpreteted languages.
 
 ---
 

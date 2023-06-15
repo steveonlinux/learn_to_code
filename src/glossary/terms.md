@@ -12,6 +12,8 @@
 | By Value | To provide only the value of an object to a function |
 | Calling | To execute a function. *Call;Called |
 | Casting | Converting one data type to another. *Cast; Casted |
+| Class | Defines attributes of an object. |
+| Collections | Types that contain multiple elements such as lists and strings. |
 | Command | A word that executes a program. |
 | Command Line Interface (cli) | A textual method of interacting with a computer system opposed to a graphical environment. |
 | Comment | A line of code that is skipped by the interpreter. For human readability. |
@@ -23,27 +25,34 @@
 | Declarative | Programming paradigm where the state of the system is defined or declared. Such as a markup or templating language. |
 | Definition | The code that determines the actions of a function. |
 | else | A keyword beginning a conditional else statement. |
+| Escape Character or Escape Sequence | Characters meaning something other than its literal value. |
 | Executable File | A binary file that can be ran as a program on a computer often ending in .exe. |
 | Function | Code that is encapsulated. May accept inputs or return outputs. |
 | if | A keyword beginning a conditional if statement. |
 | Imperative | Paradigm where instructions are given to a system for execution. |
 | import | Keyword that brings into scope other source code. |
+| import | Python keyword that denotes a module to be included. |
+| Index | The numbered "container" which "holds" an element in a collection. |
 | Instantiation | The creation if an object; the bringing of an object into existence. |
-| Instantiation | The creation of a variable. |
+| Instantiation | The creation of a variable or object. |
 | Integrated Development Environment | A program used to edit source code |
 | Interpreter | A program that executed the source code of an interpreted language. *Interpreted;Interpretation |
+| Iteration | The execution of a body of a loop relative to other executions in a series. *iterate; iterating |
 | Keyword | A word in a programming language that is protected for a certain used and not allowed for use as a variable name. |
 | Logical Operation | An operation that accepts and returns truth values. |
 | loop | A code block that executes until a condition is not met. |
 | Method | A function of a class to accept an object of said class as input. *Dot Function |
+| Module | Source code that can be imported for use; also known as a library. |
 | Module | Source code that can be reference and used by other source code. |
 | Nesting | Containing code blocks such as functions or conditionals within one another. |
 | Object | A concept defining an entity of a some data type and its existence. Data type; location; times used; etc.  |
+| Object Oriented Programming (OOP) | Programming paradigm where data is organized by attributes. |
 | Operator | A symbol denoting an operation on one or between multiple objects or entities. |
 | Option | A setting usable at the command line. *Switch |
 | Paradigm | Forms of a programming language that indicate how it is written in and how the source is executed by the system. |
 | Parameter | The input of a function. |
 | Path | A location within a file system. |
+| pip | A Python package manager. |
 | Pointer | A kind of variable which refers or points to an object. Variables in Python are pointers by default. *Reference |
 | Portability | The aspect of a language that defines how easily its programs can be ran on a wide variety of systems. |
 | Precedence | The order of operations in a programming language. Higher precedence is executed before lower precedence. |
@@ -60,4 +69,5 @@
 | Text Editor | A program used to edit source code. |
 | Truth Table | A table expressing the inputs and outputs of logical operations. |
 | Variable | A name used to label data. |
+| Zero Based Indexing | Paradigm where the index numbering of collections begin at zero. |
 

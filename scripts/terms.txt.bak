@@ -60,7 +60,7 @@ Shorthand,The combination of multiple operators or processes and their functiona
 Precedence,The order of operations in a programming language. Higher precedence is executed before lower precedence.
 Collections,Types that contain multiple elements such as lists and strings.
 Zero Based Indexing,Paradigm where the index numbering of collections begin at zero.
-import,Python keyword that denotes a module to be included.
+import,Pyton keyword that denotes a module to be included.
 Index,The numbered "container" which "holds" an element in a collection.
 Object Oriented Programming (OOP),Programming paradigm where data is organized by attributes.
 Class,Defines attributes of an object.

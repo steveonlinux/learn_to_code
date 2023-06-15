@@ -55,6 +55,8 @@
 - [Precedence](./ex/precedence.md)
 - [Type Conversion](./ex/cast.md)
 - [Dot Functions](./ex/dot.md)
+- [Conditional Statements](./ex/conditional.md)
+- [Loops](./ex/loops.md)
 - [Style](./ex/style.md)
 
 # Projects
