@@ -50,6 +50,25 @@ while(n <= 20):
 ```
 This code checks every number form 1 to 20. If the number is divisible by 2 it prints, if not nothing happens and the next number is checked.
 
+## Continue and Break
+
+Python supports two keywords that allows us to stop a loop from iterating again or command a loop to jump to the next iteration.
+
+###  Break
+The `break` keyword causes a loop to immediately exit. `break` statements should be used only when necessary as when using them instead to end a loop instead of allowing the loop to end naturally based on its conditions can be considered bad style. However `while` loop utilizing `break` is often used to accept user input.
+
+```Python
+while (True):
+    meals = int(input("How many meals did you eat today?\n"))
+    if meals >= 0:
+        break
+if (meals == 0):
+    print("You should eat something today!")
+else:
+    print(meals," meals sounds ok.")
+```
+This code utilizes an infinite `while` loop. The loop will iterate and ask the user a question over and over until the number they provide is positive. If they give a positive number, the loop breaks. This is to ensure the user provides usable information.
+
 The next section will cover the more widely applicable and succinct looping structure, the *for loop*.
 
 ---
