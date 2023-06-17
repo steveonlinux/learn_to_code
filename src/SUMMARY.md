@@ -43,6 +43,7 @@
 - [Command Line Guide](./glossary/cli_guide.md)
 # Appendix
 - [Practice Questions](./appendix/practice.md)
+- [Recommended Software](./appendix/rec.md)
 - [References](./appendix/ref.md)
 # Examples
 - [Output and User Input](./ex/out.md)
@@ -59,8 +60,10 @@
 
 # Projects
 
-- [Hello World!](./hello/README.md)
-- [BizzBuzz](./bizzbuzz/README.md)
-- [Playing The Towers of Hanoi](./tower/README.md)
-- [Building a Reddit Bot](./bot/README.md)
+- [BizzBuzz]()
+- [Anagrams and Palindromes]()
+- [Sudoku Solver]()
+- [Playing The Towers of Hanoi]()
+- [Too Many Cats]()
+- [Building a Reddit Bot]()
 

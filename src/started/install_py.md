@@ -29,6 +29,9 @@ Once the interpreter is installed you will be greeted with a success screen.
 
 ![python success](./imgs/python_success.png)
 
+## Mac
+Follow this guide from [The Hitchhiker's Guide To Python](https://docs.python-guide.org/starting/install3/osx/) for installing Python 3.
+
 ## Linux
 
 On the vast majority of Linux distributions, Python is already installed by default.

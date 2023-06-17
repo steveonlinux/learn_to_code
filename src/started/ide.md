@@ -49,7 +49,7 @@ of having to switch programs frequently. Some of these features are:
 - Debugging
 - Version Control
 
-IDEs usually are designed for use with a a specific programming language, however IDEs exist that are used for programming in general. Also ,since IDEs are so much more feature rich that text editors, they usually are more complicated and tend to have a steeper learning curve.
+IDEs usually are designed for use with a a specific programming language, however IDEs exist that are used for programming in general. Also, since IDEs are so much more feature rich that text editors, they usually are more complicated and tend to have a steeper learning curve.
 Some examples of popular IDEs used today are: 
 
 - Visual Studio Code

@@ -18,3 +18,9 @@ Official Python Documentation
 [Official Python Documentation](https://docs.python.org/3/)
 
 ---
+
+Reitz, K.,& Schlusser, T. (2016). *The hitchhiker’s guide to python: Best practices for development*. O’Reilly Media, Inc.
+
+[The Hitchhiker's Guide To Python](https://docs.python-guide.org/)
+
+---
