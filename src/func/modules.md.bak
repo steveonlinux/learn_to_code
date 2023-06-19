@@ -30,7 +30,7 @@ greatest_common_factor.gcf()
 ```
 
 ## Importing Individual Functions
-Python supports importing individual functions from a module so the entire module doesn't have to be. For example, if we wanted to just import the function `gcf()`, and not the entire module, out import statement could be the following:
+Python supports importing indvidual functions from a module so the entire module doesn't have to be. For example, if we wanted to just import the function `gcf()`, and not the entire module, out import statement could be the following:
 
 ```Python
 from greatest_common_factor import gcf
@@ -38,7 +38,7 @@ from greatest_common_factor import gcf
 This code uses the `from` keyword to specify the module name then `import` follows to specify the function name.
 
 ## Module Aliases
-Furthermore, modules can be renamed, so using them in the code is more convenient. For example, to import `greatest_common_factor.py` and rename it to `gcf` our import statement would be the following:
+Furthermore, modules can be renamed, so using them in the code is more convenienent. For example, to import `greatest_common_factor.py` and rename it to `gcf` our import statement woudl be the following:
 ```Python
 import greatest_common_factor as gcf
 ```
@@ -47,20 +47,7 @@ The `as` keyword specifies what to rename the module to. So now to call an impor
 ```Python
 gcf.gcf()
 ```
-## Python Standard Library
-The *Python Standard Library* is a libray of modules that are usually installed onto a system along with the interpreter. So we should have access to them alreay, they do not need to be downlaoded or installed. Standard modules are official and designed, written, and backed by the Python developers for our use. Noteworty standard modules are listed in the table below:
-
-| Module   | Description                                                  |
-|----------|--------------------------------------------------------------|
-| math     | Provides mathematical functions                              |
-| cmath    | Provides mathematical functions for use with complex numbers |
-| datetime | Provides clocks and counters                                 |
-| random   | Provides generation of random numbers and values             |
-| os       | Provides tools for interaction with the operating system     |
-| io       | Provides tools for reading and writing to files              |
-
-
-Keep in mind there are countless modules and packages available for install outside of the standard libray. Those modules are developed by third parties and some are incredibly popular. Refer to the later section on the package manager `pip` to learn about installing non standard Python packages that can be imported for use in your own scripts!
+Refer to the later section on the package manager `pip` to learn about installing Python packages that can be imported for use in your own scripts!
 
 ---
 ## Further Reading

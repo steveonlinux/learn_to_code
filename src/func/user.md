@@ -1,1 +1,74 @@
 # User Defined Functions
+
+We've used functions throughout or code. Whether they were functions or more specifically methods or dot functions, they were functions designed and written by the 
+Python authors for our use. But what if we want to write our own functions? Most programming languages, including Python, support *user defined functions*. So we can
+define and use our own functions! 
+
+Writing your own function has many benefits like:
+
+* Easily using the same code in multiple places
+* Using code in other scripts or programs
+* Sharing code with others
+
+## Syntax
+
+In Python, the `def` keyword denotes the beginning of a function's *definition*. The definition of a function is essentially the code that is what a function does.
+`def` is followed by the function's name and and immediately by an open and closed parenthetical. Inside the parenthetical will go your function's parameters. However,
+your function does not have to have parameters. Every line body of the function is indented. The body is what the function will do every time it is called. 
+
+```Python
+def square_user_input(): 
+     user_int = float(input("Give me a number\n"))
+     print(user_int ** 2)
+```
+
+This example defines a function named `square_user_input()`. It takes no parameters. It squares a number given to the interpreter by the user, and prints that number.
+But this code currently does nothing. The function is defined but it needs to be called to execute, like every other function we've been using.
+
+```Python
+square_user_input()
+```
+This code will call our function which executes it.
+
+## Parameters and Returns
+
+What if I want to write a function that takes parameters and returns an object? As in, accepts inputs and return outputs. This can be easily done. For parameters,
+we use variables to refer to the parameters that can be given to the function, in order. For example,
+
+```Python
+gcf(num1, num2):
+```
+Begins the definition of a function named `gcf()` that accepts to parameters. When given, the parameters will be assigned to `num1` and `num2` in our code. However,
+those variables will only exist inside the function definition. This is an example of *scoping*. Scoping refers to what data areas of the code is aware of. By default,
+the scope of variable parameters, and variables defined within function definitions can not be used outside of the function. This data is said to be *out of scope* 
+for the rest of the code. Likewise, variables defined outside the function are out of the scope of the function's definition. The `global` keyword can be used to make a variable's scope the entire script, so it can be used everywhere. However, the use of `global` is not recommended as it is often not necessary and should only be used when absolutely necessary.   
+
+This example function is named `gcf()` for greatest common factor. It will return the greatest common factor of two positive numbers.
+
+```Python
+def gcf(num1, num2):
+    if (num1 == num2):
+        return num1
+    elif (num1 < num2):
+        for factor in range(num1, 0, -1):
+            if (num1 % factor == 0 and num2 % factor == 0):
+                return factor
+    else:
+        for factor in range(num2, 0, -1):
+            if (num1 % factor == 0 and num2 % factor == 0):
+                return factor
+```
+Again this function is defined to accept two parameters, however there are multiple uses of the `break` keyword. This keyword returns an object and immediately exits the function. So, in this function, the `return` keyword is used to output the largest factor of the two numbers once it is found and exit the function. Remember, this is just the definition. Let's actually call and use the function in a script.
+
+```Python
+user_input1 = int(input("Please enter a positive integer\n"))
+user_input2 = int(input("Please enter another positive integer\n"))
+
+gcf = (gcf(user_input1, user_input2))
+print("The greatest common factor between these two numbers is:", gcf)
+```
+This code snippet uses our function to get the input from the user, uses their input as parameters, and prints the greatest common factor to the user. If these two code snippets are in the same script, I can use the function I defined anywhere in the script, because the function will be in scope for the entire script. But what if I want to call a function that is defined in another file? Or I want to use a function someone else wrote? These possibilities will be discussed in the following sections.
+
+---
+## Further Reading
+[Python Docs on Defining Functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)

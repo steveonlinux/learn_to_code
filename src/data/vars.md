@@ -86,7 +86,7 @@ Your variable names should be:
 - Descriptive
 - Unique
 
-A common variable naming convention used is called *camelCase*. camelCase separates multiple words in a name by capitalizing the last word of the variable name. Another common convention is *snake_case*. Where the words in the name are separated by underscores. snake_case is commonly used in Python and is what will be used in this book.
+A common variable naming convention used is called *camelCase*. camelCase separates multiple words in a name by capitalizing the last word of the variable name. Another common convention is *snake_case*. Where the words in the name are separated by underscores. snake_case is commonly used in Python but both camelCase and snake_case will be used in this book.
 
 ---
 

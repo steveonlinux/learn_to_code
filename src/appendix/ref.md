@@ -24,3 +24,8 @@ Reitz, K.,& Schlusser, T. (2016). *The hitchhiker’s guide to python: Best prac
 [The Hitchhiker's Guide To Python](https://docs.python-guide.org/)
 
 ---
+
+[Harvard CS50’s Introduction to Programming with Python – Full University Course: Taught By Dr. David J. Malan](https://youtu.be/nLRL_NcnK-4)
+
+---
+

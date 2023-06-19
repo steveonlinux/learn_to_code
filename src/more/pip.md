@@ -12,7 +12,7 @@ for the many different programming languages and operating systems. In our case 
 and is designed to install Python programs. Many Python programs written by individuals and
 groups are available through pip.
 
-Furthermore, pip is also used to install Python *modules* locally for use in our own Python
+Recall that in Python *packages* are simply collections of modules or other subpackages. Therfore, pip is also used to install Python *modules* locally for use in our own Python
 programs.
 
 
@@ -43,3 +43,5 @@ pip list
 [Pip Man Pages](https://linuxcommandlibrary.com/man/pip)
 
 [Pip Documentation](https://pip.pypa.io/en/stable/)
+
+[Python Package Repository Search](https://pypi.org/)

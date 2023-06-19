@@ -28,7 +28,6 @@
 	- [For Loops](./loops/for.md)
 - [Functions]()
 	- [User Defined Functions](./func/user.md)
-	- [Recursive Functions](./func/recursion.md)
 	- [Modules & Imports](./func/modules.md)
 - [Classes and Objects]()
 	- [Object Oriented Programming (OOP)](./oop/oop.md)
@@ -38,6 +37,7 @@
 - [And More...]()
     - [pip](./more/pip.md)
     - [Escape Sequences](./more/esc.md)
+    - [Recursive Functions](./more/recursion.md)
 # Glossary
 - [Terms](./glossary/terms.md)
 - [Command Line Guide](./glossary/cli_guide.md)
@@ -56,6 +56,8 @@
 - [Dot Functions](./ex/dot.md)
 - [Conditional Statements](./ex/conditional.md)
 - [Loops](./ex/loops.md)
+- [User Defined Functions](./ex/udf.md)
+- [Import](./ex/import.md)
 - [Style](./ex/style.md)
 
 # Projects

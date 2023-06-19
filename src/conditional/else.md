@@ -21,7 +21,7 @@ Here an *else* statement comes directly after the *if* statement. The *else* sta
 *The flow from an if statement to an else statement*
 
 ## else if statements 
-The *elif* statement - short for *else if* however, is an *else* statement with a condition. So it executes its body if the previous *if* statement did not execute its body **AND** the *elif* statement's condition is true. So, where a if-else block can be used 2 possible outcomes, an if-elif-else block can be used for 2 or more possible outcomes. Keep in mind that if the *if* statement executes its body, nothing else is done. The flow stops at the *if* statement if it has a true condition.
+The *elif* statement - short for *else if* however, is an *else* statement with a condition. So it executes its body if the previous *if* statement did not execute its body **AND** the *elif* statement's condition is true. So, where a if-else block can be used for 2 possible outcomes, an if-elif-else block can be used for 2 or more possible outcomes. Keep in mind that if the *if* statement executes its body, nothing else is done. The flow stops at the *if* statement if it has a true condition.
 
 ![elif](./imgs/elif.drawio.png)
 
