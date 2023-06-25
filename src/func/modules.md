@@ -65,6 +65,8 @@ Keep in mind there are countless modules and packages available for install outs
 ---
 ## Further Reading
 
+[Python Standard Library](https://docs.python.org/3/library/)
+
 [Python Docs on Import](https://docs.python.org/3/reference/import.html)
 
 [Python Docs on Modules](https://docs.python.org/3/tutorial/modules.html)
