@@ -1,0 +1,85 @@
+# Inheritance
+
+What if we want to create a new class based on a class that is already defined? We can do this through a concept called *inheritance*. Using inheritance is useful when we need a new class that's only slightly different than the one we have. With inheritance, we don't need to rewrite parts of the original class, which may break existing code. We also don't need to manually copy the definition from the class which may change in a future edit.
+
+
+## Creating a Child Class
+
+*Inheritance* is the creation of a class based another class. The new class's definition will contain whatever the base class does plus new additions. The new class is said to *inherit* the aspects it shares from the base class. And continuing the analogy, the new class is said to be the *child* class, and the original base class is said to be the *parent* class.
+
+Recall the `cat` class from the previous section below:
+
+```Python
+class cat:
+    def __init__(self, name, age, color):
+        self.name = name
+        self.age = age
+        self.color = color
+    def is_senior(self):
+        if (self.age >= 10):
+            return True
+        else
+            return False
+
+```
+Now, let's create a child class of the `cat` class:
+
+```Python
+class sphynx(cat):
+	pass
+```
+This is a definition of a child class named `sphynx` based on the `cat` class. Notice, to create a child class the class name of parent is given as a parameter of the child class. In this case the parent class is `cat` and is found in the parentheses as a parameter of `sphynx`. The child is class logically a *kind* of the parent class. It will have access to the same methods and have the same attributes as the parent.
+
+![sphynx](./imgs/sphynx.jpg)
+*The cat in question*
+
+```Python
+hairless_cat = sphynx(smooth-skin, 3, pink)
+```
+Here, a `sphynx` object is created. It accepts all the same parameters as its parent because it currently has the same attributes. And it will have access to the same method `is_senior`.
+
+```Python
+hairless_cat.is_senior()
+```
+
+But what if I need the child to be different than its parent? For this, we need to utilize *overriding*.
+
+## Overriding
+
+*Overriding* is the act of changing the definition of an attribute or method in a child class's definition. To override a method for example, we just rewrite the definition of that function in the child class's definition.
+
+```Python
+class sphynx(cat):
+	def is_senior(self):
+		if (self.age >= 10):
+		print("I am a senior hairless cat")
+            else
+                return False
+```
+The `is_senior()` method has now been overridden. The method now prints a message in addition to returning `True` when the cat is of age.
+
+`__init()__`, the constructor function which defines what data is accepted at object instantiation, may also be overridden. This is useful if the child objects need different default attributes. For example:
+
+```Python
+class sphynx(cat):
+    def __init__(self, name, age, skin_color):
+        self.name = name 
+        self.age = age
+        self.skin_color = color
+    def is_senior(self):
+	if (self.age >= 10):
+	    print("I am a senior hairless cat")
+        else
+            return False
+```
+Here `__init()__` is overridden by changing the last parameter, and corresponding attribute to `skin_color`... because sphynx cats are hairless and weird.
+
+Keep in mind that the notion of inheritance can be extended as many times as needed. Thus child classes can have their own children, and those children may have children, and so forth.
+
+---
+## Further Reading
+
+[Python Docs On Inheritance](https://docs.python.org/3/tutorial/classes.html#inheritance)
+
+[Inheritance (object-oriented programming)](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
+

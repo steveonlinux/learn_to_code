@@ -50,12 +50,11 @@ Source Code,The expression of a programming language as a text file before compi
 Path,A location within a file system.
 Data,Information. Usually ultimately stored in the form of binary data.
 Algorithm,The definition of a process or instructions to be carried to to complete a task.
-Instantiation,The creation of a variable or object.
 Calling,To execute a function. *Call;Called
 By Value,To provide only the value of an object to a function, not the object itself.
 By Reference,To provide an object itself to a function.
 Scope,Data other code is aware of. *Scoping
-Instantiation,The creation if an object; the bringing of an object into existence.
+Instantiation,The creation of an object; the bringing of an object into existence.
 Shorthand,The combination of multiple operators or processes and their functionalities into a single operator or symbol.
 Precedence,The order of operations in a programming language. Higher precedence is executed before lower precedence.
 Collections,Types that contain multiple elements such as lists and strings.
@@ -68,3 +67,8 @@ Escape Character or Escape Sequence,Characters meaning something other than its 
 Iteration,The execution of a body of a loop relative to other executions in a series. *iterate; iterating
 Module,Source code that can be imported for use; also known as a library.
 pip,A Python package manager.
+Constructor, A method that defines the default object of a class. Similar to a template.
+Double Underscore Method (Dunder), A method whose name begins and ends in double underscores. Is called by the class.
+Inheritance, The mechanism that allows classes to be derived from one another similar to a familial hierarchy.
+Override, The act of redefining a method in a child class's definition.
+Overload, The act of redefining an operation through the use of dunders in a class definition.

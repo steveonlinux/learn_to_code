@@ -20,10 +20,12 @@
 | Comparison Operation | An operation that performs a test and accepts numerical values and returns truth values. |
 | Compiler | A program that converts source code of a compiled language to a binary file. *Compiler;Compilation |
 | Conditional statement | A statement which evaluates the truth value of a case. |
+| Constructor |  A method that defines the default object of a class. Similar to a template. |
 | Data | Information. Usually ultimately stored in the form of binary data. |
 | Data Type | A data organization that defines the meaning of the data. |
 | Declarative | Programming paradigm where the state of the system is defined or declared. Such as a markup or templating language. |
 | Definition | The code that determines the actions of a function. |
+| Double Underscore Method (Dunder) |  A method whose name begins and ends in double underscores. Is called by the class. |
 | else | A keyword beginning a conditional else statement. |
 | Escape Character or Escape Sequence | Characters meaning something other than its literal value. |
 | Executable File | A binary file that can be ran as a program on a computer often ending in .exe. |
@@ -33,8 +35,8 @@
 | import | Keyword that brings into scope other source code. |
 | import | Python keyword that denotes a module to be included. |
 | Index | The numbered "container" which "holds" an element in a collection. |
-| Instantiation | The creation if an object; the bringing of an object into existence. |
-| Instantiation | The creation of a variable or object. |
+| Inheritance |  The mechanism that allows classes to be derived from one another similar to a familial hierarchy. |
+| Instantiation | The creation of an object; the bringing of an object into existence. |
 | Integrated Development Environment | A program used to edit source code |
 | Interpreter | A program that executed the source code of an interpreted language. *Interpreted;Interpretation |
 | Iteration | The execution of a body of a loop relative to other executions in a series. *iterate; iterating |
@@ -49,6 +51,8 @@
 | Object Oriented Programming (OOP) | Programming paradigm where data is organized by attributes. |
 | Operator | A symbol denoting an operation on one or between multiple objects or entities. |
 | Option | A setting usable at the command line. *Switch |
+| Overload |  The act of redefining an operation through the use of dunders in a class definition. |
+| Override |  The act of redefining a method in a child class's definition. |
 | Paradigm | Forms of a programming language that indicate how it is written in and how the source is executed by the system. |
 | Parameter | The input of a function. |
 | Path | A location within a file system. |
