@@ -1,0 +1,21 @@
+# Command Line Arguments
+
+Many programming languages, including Python, support the use of *command line arguments*. They are also sometimes referred to as *switches*.  A command line argument is essentially a way of configuring and applying settings when a program or script is ran at the command line. 
+
+Refer to the first chapter's section *Command Line Interface or CLI* for more information.
+
+In Python, command line arguments are best implemented through the module *argparse* availabe in the standard library. This module helps with:
+
+* Defining Arguments
+* Storing Arguments
+* Designating default values
+* Desginating required arguments
+* Designing help messages
+
+For examples that utilize command line arguments, check the examples and projects sections.
+
+---
+
+## Further Reading
+
+[argparse](https://docs.python.org/3/library/argparse.html)
