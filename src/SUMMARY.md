@@ -73,7 +73,7 @@
 
 - [FizzBuzz](./projects/fizzbuzz.md)
 - [The Collatz Conjecture](./projects/collatz.md)
-- [Anagrams and Palindromes]()
+- [Random Password Generator](./projects/rand.md)
 - [Sudoku Solver]()
 - [Playing The Towers of Hanoi]()
 - [Too Many Cats]()
