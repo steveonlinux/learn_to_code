@@ -1,0 +1,179 @@
+# Searching and Sorting Algorithms
+
+A common field of computer science is the study and development of algorithms. Remember algorithms are just methods of solving a problem. Algorithms can be developed, however as a programmer, algorithms are often memorized or noted. This is so they can be used as a tool whenever they might be useful. One of the most critical categories of algorithms are those for sorting and searching collections of data. In Python, any collection type, like lists, can be sorted or searched.
+
+## Algorithm Efficiency
+
+Algorithms are generally determined to be efficient in terms of how quickly they complete their task. This is known as *time complexity*. Furthermore, how efficient an algorithms is can also be determined in terms of how much memory is used to complete the task. This is known as *space complexity*. These are more advanced concepts that won't be delved into here. Just keep in mind some algorithms are more fast and efficient than others, depending on the set of data they are working on.
+
+ ## Sorting Algorithms
+
+ ### Bubble Sort
+
+> Bubble Sort is one of the simplest sorting algorithms. The algorithm works by repeatedly swapping the adjacent elements if they are in the wrong order. It continues to pass through the list until it is completely sorted, which is when no more swaps are needed. 
+
+```Python
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        # Last i elements are already in place
+        for j in range(0, n - i - 1):
+            # Swap if the element found is greater than the next element
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+```
+### Selection Sort
+
+> Selection Sort is another simple sorting algorithm. It works by dividing the input list into two parts: the sublist of items already sorted and the sublist of items remaining to be sorted. The algorithm repeatedly selects the smallest (or largest, depending on sorting order) element from the unsorted sublist, swapping it with the leftmost unsorted element, and moving the sublist boundaries one element to the right.
+
+```Python
+def selection_sort(arr):
+    for i in range(len(arr)):
+        # Find the minimum element in remaining unsorted array
+        min_idx = i
+        for j in range(i + 1, len(arr)):
+            if arr[min_idx] > arr[j]:
+                min_idx = j
+                
+        # Swap the found minimum element with the first element of the unsorted part        
+        arr[i], arr[min_idx] = arr[min_idx], arr[i]
+```
+
+### Insertion Sort
+
+> Insertion sort works similarly to how you might sort playing cards in your hand. The array is divided into a sorted and an unsorted region. One by one, the unsorted values are "inserted" into their correct position in the sorted region.
+
+ ```Python
+ def insertion_sort(arr):
+    for i in range(1, len(arr)):
+        key = arr[i]
+        # Move elements of arr[0..i-1], that are greater than key,
+        # to one position ahead of their current position
+        j = i - 1
+        while j >= 0 and key < arr[j]:
+            arr[j + 1] = arr[j]
+            j -= 1
+        arr[j + 1] = key
+```
+
+### Quick Sort
+
+> Quick Sort is a divide-and-conquer algorithm. It picks an element as a pivot and partitions the given array around the pivot. There are different versions of quickSort that pick pivot in different ways: always pick the first element, always pick the last element, pick a random element, pick the median, etc. Once the array is partitioned, the two sub-arrays are recursively sorted.
+
+```Python
+def partition(arr, low, high):
+    i = (low - 1)         # index of smaller element
+    pivot = arr[high]     # pivot
+  
+    for j in range(low, high):
+        # If current element is smaller than or equal to pivot
+        if arr[j] <= pivot:
+            # increment index of smaller element
+            i = i + 1
+            arr[i], arr[j] = arr[j], arr[i]
+  
+    arr[i + 1], arr[high] = arr[high], arr[i + 1]
+    return (i + 1)
+  
+def quick_sort(arr, low, high):
+    if len(arr) == 1:
+        return arr
+    if low < high:
+        # pi is partitioning index, arr[p] is now at right place
+        pi = partition(arr, low, high)
+  
+        # Separately sort elements before partition and after partition
+        quick_sort(arr, low, pi - 1)
+        quick_sort(arr, pi + 1, high)
+```
+
+### Merge Sort
+
+> Merge Sort is also a divide-and-conquer algorithm. It works by dividing the array into two halves, sorting them individually, and then merging them. This process is recursive, with the base case being lists of size 1, which are already sorted. The merge operation is the key process that assumes that the two lists are sorted and merges them into a single sorted list. 
+
+```Python
+def merge_sort(arr):
+    if len(arr) <= 1:
+        return arr
+
+    mid = len(arr) // 2
+    left_half = arr[:mid]
+    right_half = arr[mid:]
+
+    return merge(merge_sort(left_half), merge_sort(right_half))
+
+def merge(left, right):
+    merged = []
+    left_index = 0
+    right_index = 0
+
+    # Merge smaller elements first
+    while left_index < len(left) and right_index < len(right):
+        if left[left_index] < right[right_index]:
+            merged.append(left[left_index])
+            left_index += 1
+        else:
+            merged.append(right[right_index])
+            right_index += 1
+
+    # If there are remaining elements in left or right half, append them to the result
+    while left_index < len(left):
+        merged.append(left[left_index])
+        left_index += 1
+
+    while right_index < len(right):
+        merged.append(right[right_index])
+        right_index += 1
+
+    return merged
+```
+
+## Searching Algorithms
+
+### Linear Search
+
+> Linear Search is the simplest searching algorithm. It works by sequentially checking each element of the list until a match is found or the whole list has been searched.
+
+```Python
+def linear_search(arr, x):
+    for i in range(len(arr)):
+        if arr[i] == x:
+            return i  # return the index of found element
+    return -1  # if the element is not found
+```
+
+### Binary Search
+
+> Binary Search is a much faster search algorithm than linear search. It works on the principle of divide and conquer. For this algorithm to work properly, the data collection should be in the sorted form. Binary search looks for a particular item by comparing the middle most item of the collection. If a match occurs, then the index of the item is returned. If the middle item is greater than the item, then the item is searched in the sub-array to the left of the middle item. Otherwise, the item is searched for in the sub-array to the right of the middle item. This process continues on the sub-array as well until the size of the subarray reduces to zero.
+
+```Python
+def binary_search(arr, low, high, x):
+    if high >= low:
+        mid = (high + low) // 2
+        # If element is present at the middle
+        if arr[mid] == x:
+            return mid
+        # If element is smaller than mid, then it can only be present in left subarray
+        elif arr[mid] > x:
+            return binary_search(arr, low, mid - 1, x)
+        # Else the element can only be present in right subarray
+        else:
+            return binary_search(arr, mid + 1, high, x)
+    else:
+        # Element is not present in array
+        return -1
+```
+
+---
+
+## Further Reading and Watching
+
+[15 Sorting Algorithms in 6 Minutes](https://www.youtube.com/watch?v=kPRA0W1kECg&t=26s)
+
+[Sorting Algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm)
+
+[Search Algorithms](https://en.wikipedia.org/wiki/Search_algorithm)
+
+
+
+
